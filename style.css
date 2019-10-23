@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Rubik|Varela+Round&display=swap');
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: #431e66;
+    border-bottom: 2vh solid #c54286;
+    display: inline-block;
+    position:fixed;
+    left: 0px;
+}
+
+/*footer {
+    width: 100vw; 
+    height: 5vh;
+    background-color: #431e66;
+    border-top: 0vh solid #c54286;
+    position:absolute;
+    bottom: 0px;
+}*/
+
+.articleContent{
+    background-color: #303030;
+    color:#fff;
+    width: 97vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 17vh;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border-left: 5px solid #b22e69;
+}
+
+.articleTitle{
+    font-family: 'Fredoka One', cursive;
+}
+
+.articleSubtitle{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+    margin-top: 0px;
+}
+
+.articleParagraph{
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12pt;
+}
+
+.articleImage{
+    margin-top: 15px;
+    width: 75%;
+}
+
+.sidebar {
+    align-items: stretch;
+    background-color: #431e66;
+    width: 15vw;
+    height: 200vh;
+    margin: 0px;
+}
+
+.headerGraphics{
+    -ms-flex: 0 0 25vw;
+    flex: 0 0 25vw;
+}
+
+.headerButton{
+    height: 13vh;
+}
+
+#headerLogo{
+    top: 1vh;
+    left: 0.5vw;
+    position: absolute;
+    height: 13vh;
+}
+
+#headerImage{
+    left: 0vw;
+    position: absolute;
+    height: 13vh;
+}
+
+body{
+    background-image: url("Graphics/bgPink");
+    animation: backgroundBlur 15s linear infinite;
+    -webkit-animation: backgroundBlur 15s linear infinite;
+    -moz-animation: backgroundBlur 15s linear infinite;
+    -o-animation: backgroundBlur 15s linear infinite;
+    -ms-animation: backgroundBlur 15s linear infinite;  
+}
+
+@-webkit-keyframes backgroundBlur {
+    from {
+        background: url("Graphics/bgBlack.png");
+    }
+    20% {
+        background: url("Graphics/bgOrange.png");  
+    }
+    40% {
+        background: url("Graphics/bgGreen.png");  
+    }
+    60% {
+        background: url("Graphics/bgTeal.png"); 
+    }
+    80% {
+        background: url("Graphics/bgPurple.png");  
+    }
+    to {
+        background: url("Graphics/bgBlack.png");   
+    }
+}
