@@ -1,0 +1,47 @@
+---
+layout: main
+---
+
+    <div class="row bodyContent container-fluid">
+
+        <div class="articleContent hidden-xs col-xs-9" style="margin-bottom: 25px;">
+
+            {{ content }}
+            
+        </div>
+
+        <div class="articleContent visible-xs col-xs-12" style="margin-bottom: 25px;">
+
+            {{ content }}
+            
+        </div>
+
+
+
+        <div align="center">
+        <a id="articleXsAll" class="sidebarArticleUrl" href="{{ site.baseurl }}/articleListAll.html"><b>See All Posts</b></a><br/>
+        </div>
+
+        <div class="sidebarContainer">
+            <div class="sidebar col-xs-2 hidden-xs">
+                    <script src="{{site.baseurl}}/sidebarStretch.js"></script>
+                    <ul align="center" class="sidebarArticles">
+                        
+                        <h3>Read More!</h3>
+
+                        {% for post in site.posts limit:5 %}
+                        <li class = "articleBox">
+                            <a class="sidebarArticleUrl" href={{post.url}}><b>{{ post.title }}</b></a><br/>
+                            <!--<span class="postDate">{{ post.date | date: date: "%b %-d, %Y" }}</span>-->
+                            <img class="sidebarArticleImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                        </li>
+                        {% endfor %}
+
+                        <li class = "articleBoxAll">
+                            <a class="sidebarArticleUrl" href="{{ site.baseurl }}/articleListAll.html"><b>See All Posts</b></a><br/>
+                        </li>  
+                    </ul>
+
+            </div>
+        </div>
+    </div>

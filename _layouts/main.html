@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> {{ site.title }} | {{ page.title }}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="{{site.baseurl}}/main.js"></script>
+        <script src="{{site.baseurl}}/parallax.js"></script>
+    </head>
+
+    <body>
+        <div class="row headerContent">
+                <div class="headerGraphics col-xs-3">
+                    <img id="headerImage" src="{{ site.baseurl }}/Graphics/pixel header.png"/>
+                    <a href="{{ site.baseurl }}/home.html"><img id="headerLogo" src="{{ site.baseurl }}/Graphics/logo_base.png" alt="sushipop"/></a>
+                </div>
+    
+                <div class="headerButtons col-md-8 hidden-xs">
+                    <img class="headerButton" src="{{ site.baseurl }}/Graphics/menuIconArt.png" alt="art page"/>
+                    <img class="headerButton" src="{{ site.baseurl }}/Graphics/menuIconGame.png" alt="art page"/>
+                    <!--change these into buttons later-->
+                </div>
+        </div>
+
+        {{content}}
+
+        <div align="center" class="footerContainer row">
+            <div class="footerContent col-xs-12">
+                <span>2019, SushiPop. Website Hosted With </span>
+                <a href="https://pages.github.com/">Github Pages.</a>
+                <span>See my Repo </span>
+                <a href="https://github.com/TobySushi/TobySushi.github.io">Here.</a>
+            </div>
+        </div>
+    </body>
+    
+</html>

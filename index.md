@@ -1,0 +1,20 @@
+---
+title: 'sample article'
+layout: article
+date: '2019-10-29'
+author: sushi
+category: art
+---
+
+# {{ page.title }}
+## **{{ page.date }} by: {{ page.author }}**
+
+## cool heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam eleifend mi. Amet purus gravida quis blandit. Libero id faucibus nisl tincidunt eget nullam non nisi. Urna nec tincidunt praesent semper feugiat nibh. Eget duis at tellus at. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. A diam maecenas sed enim ut sem viverra aliquet. Viverra orci sagittis eu volutpat odio facilisis. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Sed velit dignissim sodales ut eu sem integer vitae. Tempus urna et pharetra pharetra massa massa ultricies mi quis.  
+
+
+## cool **heading**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam eleifend mi. Amet purus gravida quis blandit. Libero id faucibus nisl tincidunt eget nullam non nisi. Urna nec tincidunt praesent semper feugiat nibh. Eget duis at tellus at. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. A diam maecenas sed enim ut sem viverra aliquet. Viverra orci sagittis eu volutpat odio facilisis. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Sed velit dignissim sodales ut eu sem integer vitae. Tempus urna et pharetra pharetra massa massa ultricies mi quis.
+

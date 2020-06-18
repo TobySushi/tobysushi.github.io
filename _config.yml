@@ -1,0 +1,4 @@
+name: sushiPopWebsite
+title: SushiPop
+include:
+  - static
