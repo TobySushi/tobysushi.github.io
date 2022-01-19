@@ -3,24 +3,142 @@
 
 
 html{
-    padding: 0;
-    margin: 0;
     width: 100%;
 }
 
-header, .headerContent {
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100vw;
-    height: 80px;
-    background-color: #431e66;
-    border-bottom: 10px solid #c54286;
+.svgContainer{
     display: inline-block;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden; 
 }
+
+/* #region Header Style */
+
+.headerContent {
+    margin-top: 125px;
+    height: 100px;
+}
+
+.headerBar{
+    background-color: #431e66;
+    border: 5px solid #ffa5d5;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.headerGraphics{
+    
+}
+
+.headerButton{
+    margin: 40px -70px 25px 15px;
+    padding: 0px 10px 5px 15px;
+
+    font-family: 'Fredoka One', cursive;
+    font-size: 22pt;
+    color: #fff;
+}
+
+.buttonSvg{
+	display: inline-block;
+}
+
+.buttonTextShadow{
+    font-size: 30pt;
+}
+
+#headerLogo{
+    height: 250px;
+    margin-top: -100px;
+    margin-left: -75px;
+}
+
+/* #endregion */
+
+/* #region Body Content */
+
+body{
+    background-image: url("Graphics/bgBlack.png");
+    background-attachment: fixed; 
+}
+
+.bodyContent {
+    margin: 60px 0px 0px 0px;
+    padding: 0;
+}
+
+/* #endregion */
+
+/* #region article content */
+
+.articleContent{
+    background-color: #303030;
+    color:#fff;
+    border-radius: 10px;
+    border-left: 5px solid #b22e69;
+    padding: 10px 30px 100px 40px;
+}
+
+.articleContent > h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+.articleContent > h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+    margin-top: 10px;
+}
+
+.articleContent > p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: 5%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16pt;
+    line-height: 28pt;
+}
+
+.articleContent > ol{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.articleContent > ol > li{
+    margin-left: 5%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16pt;
+}
+
+.articleContent > ul{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.articleContent > ul > li{
+    margin-left: 5%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16pt;
+}
+
+.articleContent > p > img{
+    border-left: 5px solid #b22e69;
+    border-radius: 10px;
+    max-width: 100%;background-color: #1f1f1f;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: block;
+}
+
+.imageSubtext{
+    align: center;
+}
+
+/* #endregion */
+
 
 .footerContent {
     margin-top: 0px;
@@ -38,37 +156,6 @@ header, .headerContent {
     
 }
 
-
-.articleContent{
-    background-color: #303030;
-    color:#fff;
-    border-radius: 10px;
-    border-left: 5px solid #b22e69;
-    margin-top: 110px;
-    margin-left : 20px;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-.articleContent > h1{
-    font-family: 'Fredoka One', cursive;
-}
-
-.articleContent > h2{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18pt;
-    margin-top: 0px;
-}
-
-.articleContent > p{
-    margin-top: 20px;
-    margin-right: 5%;
-    font-family: 'Rubik', sans-serif;
-    font-size: 14pt;
-    line-height: 22pt;
-}
-
 .articleImage{
     margin-top: 15px;
     width: 75%;
@@ -83,31 +170,19 @@ header, .headerContent {
     border-left: 5px solid #b22e69;
     position: relative;
     margin-right: 0;
-    margin-bottom: 70px;
-    margin-top: -25px;
     margin-bottom: 0px;
+    margin-top: -25px;
     width: 250px;
-    
+    height: 100%;
 }
 
 .sidebarContainer{
     margin: 0,0,0,0;
-}
-
-.headerGraphics{
-    -ms-flex: 0 0 25px;
-    flex: 0 0 25px;
-}
-
-.headerButton{
-    height: 70px;
-}
-
-#headerLogo{
-    top: 1vh;
-    left: 20px;
-    position: absolute;
-    height: 75px;
+    height: 1000px;
+    background-color: #1c0a2e;
+    border-left: 5px solid #b22e69;
+    width: 250px;
+    float: right;
 }
 
 #articleSideContent{
@@ -251,24 +326,6 @@ a:hover{
     list-style-type: none;
 }
 
-body{
-    position: relative;
-    background-image: url("Graphics/bgBlack.png");
-    background-attachment: fixed; 
-    margin-bottom: 0px;
-    min-height: calc(100vh - 160px);
-    margin: 0;
-    padding: 0;
-}
-
-.bodyContent {
-    margin-top: 10px;
-    margin: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    padding: 0;
-}
-
 
 #mainHeaderImage {
     height: 100%;
@@ -283,7 +340,7 @@ body{
 
 .mainHeaderSection {
     margin-top: 75px;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(63, 31, 60,0.5)), url('Graphics/metroid.jpg');
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(63, 31, 60,0.5)), url('Graphics/metroid.png');
     background-size: 100%;
     background-attachment: fixed;
     border-bottom: 10px solid #431e66;
@@ -293,6 +350,19 @@ body{
     height: 350px;
 }
 
+.commisionHeaderSection {
+    margin-top: 75px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(63, 31, 60,0.5)), url('Graphics/commisionbanner.png');
+    background-size: 75%;
+    background-attachment: fixed;
+    border-bottom: 10px solid #431e66;
+    left: 0;
+    right: 0;
+    padding: 0;
+    height: 350px;
+    background-position: bottom;
+}
+
 .mainHeaderTitle {
     font-family: 'Fredoka One', cursive;
     color: #fff;
@@ -300,6 +370,17 @@ body{
     margin-top: 100px;
     font-size: 50pt;
     justify-content: center;
+    text-shadow: 5px 0px black;
+}
+
+.subHeaderTitle {
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 25pt;
+    justify-content: center;
+    text-shadow: 5px 0px black;
 }
 
 .mainSectionTitle {
@@ -316,6 +397,15 @@ body{
     margin-left: 0px;
 }
 
+.mainSection > a{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 25%;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    background-color: #7e3485;
+}
+
 .mainSectionParagraph {
     font-family: 'Varela Round', sans-serif;   
     color: #fff;
@@ -326,11 +416,132 @@ body{
     font-size: 15pt;
 }
 
+.mainSectionParagraphTwo {
+    font-family: 'Varela Round', sans-serif;   
+    color: #fff;
+    padding-left: 30px;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 15pt;
+    width:100%;
+}
+
+.pricingTable {
+    width: 75%;
+    color: #fff;
+    padding-left: 30px;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15pt;
+    background-color: #664ca1;
+    border-radius: 10px;
+    
+}
+
+.pricingTable th{
+    padding: 20px;
+    width: 20%;
+    letter-spacing: 1pt;
+    border-bottom: 8px solid;
+    border-right: 5px solid;
+}
+
+.pricingTable td{
+    padding: 20px;
+    border-right: 5px solid;
+}
+
+.conditionsTable {
+    width: 100%;
+    color: #fff;
+    padding-left: 30px;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15pt;
+    border-radius: 10px;
+    
+}
+
+.conditionsTable th{
+    padding: 20px;
+    width: 20%;
+    letter-spacing: 1pt;
+    border-bottom: 8px solid;
+    border-right: 5px solid;
+    border-radius: 10px;
+}
+
+.conditionsTable td{
+    padding: 20px;
+    border-right: 5px solid;
+    border-radius: 10px;
+}
+
+.extrasTable {
+    width: 75%;
+    color: #fff;
+    padding-left: 30px;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 15pt;
+    background-color: #4ca176;
+    border-radius: 10px;
+    
+}
+
+.extrasTable th{
+    padding: 20px;
+    width: 20%;
+    letter-spacing: 1pt;
+    border-bottom: 8px solid;
+    border-right: 5px solid;
+}
+
+.extrasTable td{
+    padding: 20px;
+    border-right: 5px solid;
+}
+
 .aboutMe{
     font-family: 'Fredoka One', cursive;
     background-color: #431e66; 
     color: #fff;
 }
+
+.traditionalSketch{
+    font-family: 'Fredoka One', cursive;
+    background-color: #431e66; 
+    color: #fff;
+}
+
+.traditionalInk{
+    font-family: 'Fredoka One', cursive;
+    background-color: #b22e69; 
+    color: #fff;
+}
+
+.conditionsOne{
+    font-family: 'Fredoka One', cursive;
+    background-color: #348553; 
+    color: #fff;
+}
+
+.conditionsTwo{
+    font-family: 'Fredoka One', cursive;
+    background-color: #7e3485; 
+    color: #fff;
+}
+
+.conditionsThree{
+    font-family: 'Fredoka One', cursive;
+    background-color: #348581; 
+    color: #fff;
+}
+
 
 #articleXsAll{
     margin-top: 20px;
@@ -363,23 +574,6 @@ body{
         margin-top: 100px;
     }
 
-.footerContent {
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 70px;
-    background-color: #431e66;
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    z-index: 1;
-    color: #fff;
-    position: absolute;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 10pt;
-    padding-top: 25px;
-}
 
     
 }

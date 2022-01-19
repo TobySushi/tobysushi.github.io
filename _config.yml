@@ -2,3 +2,6 @@ name: sushiPopWebsite
 title: SushiPop
 include:
   - static
+
+gems:
+  - jekyll-random

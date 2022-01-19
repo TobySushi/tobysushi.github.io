@@ -1,47 +1,75 @@
 ---
 layout: main
+title: article
 ---
 
-    <div class="row bodyContent container-fluid">
-
-        <div class="articleContent hidden-xs col-xs-9" style="margin-bottom: 25px;">
-
-            {{ content }}
-            
-        </div>
-
-        <div class="articleContent visible-xs col-xs-12" style="margin-bottom: 25px;">
-
-            {{ content }}
-            
-        </div>
+<style>
 
 
 
-        <div align="center">
-        <a id="articleXsAll" class="sidebarArticleUrl" href="{{ site.baseurl }}/articleListAll.html"><b>See All Posts</b></a><br/>
-        </div>
+</style>
 
-        <div class="sidebarContainer">
-            <div class="sidebar col-xs-2 hidden-xs">
-                    <script src="{{site.baseurl}}/sidebarStretch.js"></script>
-                    <ul align="center" class="sidebarArticles">
-                        
-                        <h3>Read More!</h3>
+<div>
+     <div class="row container-fluid bodyContent" style="margin-top: 100px">
 
-                        {% for post in site.posts limit:5 %}
-                        <li class = "articleBox">
-                            <a class="sidebarArticleUrl" href={{post.url}}><b>{{ post.title }}</b></a><br/>
-                            <!--<span class="postDate">{{ post.date | date: date: "%b %-d, %Y" }}</span>-->
-                            <img class="sidebarArticleImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
-                        </li>
-                        {% endfor %}
+        <div class="visible-lg hidden-md">
 
-                        <li class = "articleBoxAll">
-                            <a class="sidebarArticleUrl" href="{{ site.baseurl }}/articleListAll.html"><b>See All Posts</b></a><br/>
-                        </li>  
-                    </ul>
-
+            <div class="col-md-3"></div>
+        
+                <div class="articleContent col-md-6" >
+        
+                {{ content }}
+                    
             </div>
+
         </div>
+
+        <div class="visible-md hidden-lg">
+                
+            <div class="col-md-2"></div>
+        
+                <div class="articleContent col-md-8" >
+        
+                {{ content }}
+                    
+            </div>
+                
+        </div>
+
+
+
+
     </div>
+    
+   
+    <div class="row container-fluid bodyContent" style="margin-top: 20px">
+        <div class="col-md-2"></div>
+
+        <ul class="col-md-8" style="background-color: #303030; padding: 10px 40px 10px 40px; border-radius: 10px;">
+
+            <div class="titleBar">
+                <h2 align="center" class="headerStyle" style="color: #fff">Want to Read More?</h2>
+            </div>
+
+            {% for post in site.posts limit: 2%}
+                <li class = "articleListBox row">
+                    <div class="col-xs-2 hidden-md">
+                        <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                    </div>
+
+                    <div class="col-xs-8 visible-xs">
+                        <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                        <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <p class="articleListParagraph">{{ post.description }}</p>
+                    </div>
+                    <div class="col-xs-7 hidden-xs">
+                            <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                            <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                            <p class="articleListParagraph">{{ post.description }}</p>
+                    </div>
+
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
