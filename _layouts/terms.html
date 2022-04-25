@@ -10,31 +10,45 @@ title: article
 </style>
 
 <div>
-     <div class="row container-fluid bodyContent" style="margin-top: 100px">
-
-        <div class="visible-lg hidden-md">
-
-            <div class="col-md-3"></div>
-        
-                <div class="articleContent col-md-6" >
-        
-                {{ content }}
-                    
-            </div>
-
-        </div>
-
-        <div class="visible-md hidden-lg">
+        <div class="row container-fluid bodyContent">
                 
-            <div class="col-md-2"></div>
-        
-                <div class="articleContent col-md-8" >
-        
-                {{ content }}
-                    
-            </div>
+                        <div class="visible-lg" style="margin-top: 50px">
                 
-        </div>
+                            <div class="col-md-3"></div>
+                        
+                                <div class="articleContent col-md-6" >
+                        
+                                {{ content }}
+                                    
+                            </div>
+                
+                        </div>
+                
+                        <div class="visible-md visible-sm" style="margin-top: 0px">
+                                
+                            <div class="col-md-1"></div>
+                        
+                                <div class="articleContent col-md-10" >
+                        
+                                {{ content }}
+                                    
+                            </div>
+                                
+                        </div>
+                
+                        <div class="visible-xs" style="margin-top: 0px">
+                                
+                            <div class="col-md-2"></div>
+                        
+                                <div class="articleContent col-md-8" >
+                        
+                                {{ content }}
+                                    
+                            </div>
+                                
+                        </div>
+                
+                    </div>
 
 
 

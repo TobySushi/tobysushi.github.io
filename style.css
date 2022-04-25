@@ -1,579 +1,548 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Rubik|Varela+Round&display=swap');
 
-
-
-html{
-    width: 100%;
-}
-
-.svgContainer{
-    display: inline-block;
-	position: relative;
-	width: 100%;
-	padding-bottom: 100%; 
-	vertical-align: middle; 
-	overflow: hidden; 
-}
-
 /* #region Header Style */
 
 .headerContent {
     margin-top: 125px;
-    height: 100px;
 }
 
-.headerBar{
-    background-color: #431e66;
-    border: 5px solid #ffa5d5;
-    border-radius: 10px;
-    height: 100%;
+.headerBar {
+	background-color: #431e66;
+	border: 5px solid #ffa5d5;
+	border-radius: 10px;
 }
 
-.headerGraphics{
-    
+.headerButton {
+	margin: 3% -50px -70px 15px;
+	padding: 0px 10px 5px 15px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 22pt;
+	color: #fff;
 }
 
-.headerButton{
-    margin: 40px -70px 25px 15px;
-    padding: 0px 10px 5px 15px;
-
-    font-family: 'Fredoka One', cursive;
-    font-size: 22pt;
-    color: #fff;
+.buttonTextShadow {
+	font-size: 30pt;
 }
 
-.buttonSvg{
-	display: inline-block;
-}
-
-.buttonTextShadow{
-    font-size: 30pt;
-}
-
-#headerLogo{
-    height: 250px;
-    margin-top: -100px;
-    margin-left: -75px;
+#headerLogo {
+	width: 400%;
+	margin-top: -75%;
+	margin-left: -75px;
+	position: absolute;
 }
 
 /* #endregion */
+
 
 /* #region Body Content */
 
-body{
-    background-image: url("Graphics/bgBlack.png");
-    background-attachment: fixed; 
+body {
+	background-image: url("Graphics/bgBlack.png");
+	background-attachment: fixed;
 }
 
 .bodyContent {
-    margin: 60px 0px 0px 0px;
-    padding: 0;
+	padding: 0;
 }
 
 /* #endregion */
+
 
 /* #region article content */
-
-.articleContent{
-    background-color: #303030;
-    color:#fff;
-    border-radius: 10px;
-    border-left: 5px solid #b22e69;
-    padding: 10px 30px 100px 40px;
+.sideImage{
+	width: 100%;
 }
 
-.articleContent > h1{
-    font-family: 'Fredoka One', cursive;
+.articleContent {
+	background-color: #303030;
+	color: #fff;
+	border-radius: 10px;
+	border-left: 5px solid #b22e69;
+	padding: 10px 30px 100px 40px;
 }
 
-.articleContent > h2{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18pt;
-    margin-top: 10px;
+.articleContent>h1 {
+	font-family: 'Fredoka One', cursive;
 }
 
-.articleContent > p{
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-right: 5%;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16pt;
-    line-height: 28pt;
+.articleContent>h2 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18pt;
+	margin-top: 10px;
 }
 
-.articleContent > ol{
-    margin-top: -40px;
-    margin-bottom: 40px;
+.articleContent>p {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-right: 5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16pt;
+	line-height: 28pt;
 }
 
-.articleContent > ol > li{
-    margin-left: 5%;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16pt;
+.articleContent>ol {
+	margin-top: -40px;
+	margin-bottom: 40px;
 }
 
-.articleContent > ul{
-    margin-top: -40px;
-    margin-bottom: 40px;
+.articleContent>ol>li {
+	margin-left: 5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16pt;
 }
 
-.articleContent > ul > li{
-    margin-left: 5%;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16pt;
+.articleContent>ul {
+	margin-top: -40px;
+	margin-bottom: 40px;
 }
 
-.articleContent > p > img{
-    border-left: 5px solid #b22e69;
-    border-radius: 10px;
-    max-width: 100%;background-color: #1f1f1f;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    display: block;
+.articleContent>ul>li {
+	margin-left: 5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16pt;
 }
 
-.imageSubtext{
-    align: center;
+.articleContent>p>img {
+	border-left: 5px solid #b22e69;
+	border-radius: 10px;
+	max-width: 100%;
+	background-color: #1f1f1f;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	display: block;
 }
+
+.imageSubtext {
+	align: center;
+}
+
 
 /* #endregion */
 
-
 .footerContent {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
-    height: 70px;
-    background-color: #431e66;
-    z-index: 1;
-    color: #fff;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 10pt;
-    padding-top: 25px;
-    
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	height: 70px;
+	background-color: #431e66;
+	z-index: 1;
+	color: #fff;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 10pt;
+	padding-top: 25px;
 }
 
-.articleImage{
-    margin-top: 15px;
-    width: 75%;
+.articleImage {
+	margin-top: 15px;
+	width: 75%;
 }
 
 .sidebar {
-    align-items: stretch;
-    background-color: #1c0a2e;
-    margin: 0px;
-    padding: 0px;
-    float: right;
-    border-left: 5px solid #b22e69;
-    position: relative;
-    margin-right: 0;
-    margin-bottom: 0px;
-    margin-top: -25px;
-    width: 250px;
-    height: 100%;
+	align-items: stretch;
+	background-color: #1c0a2e;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	border-left: 5px solid #b22e69;
+	position: relative;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-top: -25px;
+	width: 250px;
+	height: 100%;
 }
 
-.sidebarContainer{
-    margin: 0,0,0,0;
-    height: 1000px;
-    background-color: #1c0a2e;
-    border-left: 5px solid #b22e69;
-    width: 250px;
-    float: right;
+.sidebarContainer {
+	margin: 0, 0, 0, 0;
+	height: 1000px;
+	background-color: #1c0a2e;
+	border-left: 5px solid #b22e69;
+	width: 250px;
+	float: right;
 }
 
-#articleSideContent{
-    float: right;
+#articleSideContent {
+	float: right;
 }
 
-#headerImage{
-    left: 0vw;
-    position: absolute;
-    height: 70px;
-}
-
-.sidebarArticles > h3{
-    font-family: 'Fredoka One', cursive;
-    color: #ffa5d5;
-    margin-top: 90px;
+.sidebarArticles>h3 {
+	font-family: 'Fredoka One', cursive;
+	color: #ffa5d5;
+	margin-top: 90px;
 }
 
 #sidebarImage {
-    width: 100%;
-    position: absolute;
+	width: 100%;
+	position: absolute;
 }
 
 .sidebarArticleImage {
-    width: 90%;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    border-radius: 10px;
+	width: 90%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	border-radius: 10px;
 }
 
 .sidebarArticleUrl {
-    padding-bottom: 10px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 15pt;
-    color: #fff;
+	padding-bottom: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 15pt;
+	color: #fff;
 }
 
-a:link{
-    color: #fff;
+a:link {
+	color: #fff;
 }
 
-a:hover{
-    color: #8cff9b;
+a:hover {
+	color: #8cff9b;
 }
 
 .sidebarArticles {
-    margin-top: 80px;
-    padding-left: 0px;
-    list-style-type: none;
+	margin-top: 80px;
+	padding-left: 0px;
+	list-style-type: none;
 }
 
 .articleBox {
-    margin-left: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 90%;
-    background-color: #b22e69;
-    border-radius: 10px;
-    font-family: 'Varela Round', sans-serif;
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	background-color: #b22e69;
+	border-radius: 10px;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .articleBoxAll {
-    margin-left: 5%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    width: 90%;
-    background-color: #b22e69;
-    border-radius: 10px;
+	margin-left: 5%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 90%;
+	background-color: #b22e69;
+	border-radius: 10px;
 }
 
 .articleListImage {
-    width: 100%;
-    border-radius: 10px;
+	width: 100%;
+	border-radius: 10px;
 }
 
 .articleListBox {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    margin-right: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    background-color: #3f1f3c;
-    border-right: 5px solid #b22e69;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background-color: #3f1f3c;
+	border-right: 5px solid #b22e69;
 }
 
 .articleListUrl {
-    padding-bottom: 10px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 15pt;
-    color: #fff;
+	padding-bottom: 10px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 15pt;
+	color: #fff;
 }
 
 .articleListInfo {
-    padding-bottom: 10px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 12pt;
-    color: #fff;    
+	padding-bottom: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12pt;
+	color: #fff;
 }
 
 .articleListParagraph {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 12pt;
-    color: #fff;    
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12pt;
+	color: #fff;
 }
 
 .articleList {
-    margin-top: 110px;
-    padding-bottom: 75px;
-    margin-bottom: 100px;
-    background-color: #303030;
-    color:#fff;
-    border-radius: 10px;
-    border-left: 5px solid #b22e69;
-    margin-left : 20px;
-    padding-left: 0px;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    margin-right: 20px;
+	margin-top: 110px;
+	padding-bottom: 75px;
+	margin-bottom: 100px;
+	background-color: #303030;
+	color: #fff;
+	border-radius: 10px;
+	border-left: 5px solid #b22e69;
+	margin-left: 20px;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-right: 20px;
 }
 
 .sortLinks {
-    padding-top: 10px;
-    width: 100%;
+	padding-top: 10px;
+	width: 100%;
 }
 
-.articleList > h1 {
-    font-family: 'Fredoka One', cursive;
-    color: #ffa5d5;
-    padding-left: 30px;
+.articleList>h1 {
+	font-family: 'Fredoka One', cursive;
+	color: #ffa5d5;
+	padding-left: 30px;
 }
 
-.articleList > ul{
-    list-style-type: none;
+.articleList>ul {
+	list-style-type: none;
 }
 
-.articleList > li{
-    list-style-type: none;
-}
-
-
-#mainHeaderImage {
-    height: 100%;
+.articleList>li {
+	list-style-type: none;
 }
 
 .fullWidth {
-   /* margin-left: calc(-100vw / 2 + 500px / 2);
+	/* margin-left: calc(-100vw / 2 + 500px / 2);
     margin-right: calc(-100vw / 2 + 500px / 2);*/
-    margin: 0 auto;
-    
+	margin: 0 auto;
 }
 
 .mainHeaderSection {
-    margin-top: 75px;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(63, 31, 60,0.5)), url('Graphics/metroid.png');
-    background-size: 100%;
-    background-attachment: fixed;
-    border-bottom: 10px solid #431e66;
-    left: 0;
-    right: 0;
-    padding: 0;
-    height: 350px;
+	margin-top: 75px;
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/mainBanner.png');
+	background-size: 100%;
+	background-attachment: fixed;
+	border-bottom: 10px solid #431e66;
+	left: 0;
+	right: 0;
+	padding: 0;
+	height: 350px;
 }
 
 .commisionHeaderSection {
-    margin-top: 75px;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(63, 31, 60,0.5)), url('Graphics/commisionbanner.png');
-    background-size: 75%;
-    background-attachment: fixed;
-    border-bottom: 10px solid #431e66;
-    left: 0;
-    right: 0;
-    padding: 0;
-    height: 350px;
-    background-position: bottom;
+	margin-top: 75px;
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/commisionbanner.png');
+	background-size: 75%;
+	background-attachment: fixed;
+	border-bottom: 10px solid #431e66;
+	left: 0;
+	right: 0;
+	padding: 0;
+	height: 350px;
+	background-position: bottom;
+}
+
+.contactHeaderSection {
+	margin-top: 75px;
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactBanner.png');
+	background-size: 75%;
+	background-attachment: fixed;
+	border-bottom: 10px solid #431e66;
+	left: 0;
+	right: 0;
+	padding: 0;
+	height: 350px;
+	background-position: bottom;
 }
 
 .mainHeaderTitle {
-    font-family: 'Fredoka One', cursive;
-    color: #fff;
-    padding-left: 30px;
-    margin-top: 100px;
-    font-size: 50pt;
-    justify-content: center;
-    text-shadow: 5px 0px black;
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+	padding-left: 30px;
+	margin-top: 100px;
+	font-size: 50pt;
+	justify-content: center;
+	text-shadow: 5px 0px black;
 }
 
 .subHeaderTitle {
-    font-family: 'Fredoka One', cursive;
-    color: #fff;
-    padding-left: 30px;
-    margin-top: 20px;
-    font-size: 25pt;
-    justify-content: center;
-    text-shadow: 5px 0px black;
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+	padding-left: 30px;
+	margin-top: 20px;
+	font-size: 25pt;
+	justify-content: center;
+	text-shadow: 5px 0px black;
 }
 
 .mainSectionTitle {
-    font-family: 'Fredoka One', cursive;
-    color: #fff;
-    padding-left: 30px;
-    margin-left: 20%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 30pt;
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 20%;
+	font-size: 30pt;
 }
 
-.mainSection {
-    margin-left: 0px;
-}
-
-.mainSection > a{
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 25%;
-    margin-top: -30px;
-    margin-bottom: 20px;
-    background-color: #7e3485;
+.mainSection>a {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 25%;
+	margin-top: -30px;
+	margin-bottom: 20px;
+	background-color: #7e3485;
 }
 
 .mainSectionParagraph {
-    font-family: 'Varela Round', sans-serif;   
-    color: #fff;
-    padding-left: 30px;
-    margin-left: 20%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 15pt;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 20%;
+	font-size: 15pt;
 }
 
 .mainSectionParagraphTwo {
-    font-family: 'Varela Round', sans-serif;   
-    color: #fff;
-    padding-left: 30px;
-    margin-left: 20%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    font-size: 15pt;
-    width:100%;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 20%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 15pt;
+	width: 100%;
 }
 
 .pricingTable {
-    width: 75%;
-    color: #fff;
-    padding-left: 30px;
-    margin-left: 25%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 15pt;
-    background-color: #664ca1;
-    border-radius: 10px;
-    
+	width: 75%;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15pt;
+	background-color: #664ca1;
+	border-radius: 10px;
 }
 
-.pricingTable th{
-    padding: 20px;
-    width: 20%;
-    letter-spacing: 1pt;
-    border-bottom: 8px solid;
-    border-right: 5px solid;
+.pricingTable th {
+	padding: 20px;
+	width: 20%;
+	letter-spacing: 1pt;
+	border-bottom: 8px solid;
+	border-right: 5px solid;
 }
 
-.pricingTable td{
-    padding: 20px;
-    border-right: 5px solid;
+.pricingTable td {
+	padding: 20px;
+	border-right: 5px solid;
 }
 
 .conditionsTable {
-    width: 100%;
-    color: #fff;
-    padding-left: 30px;
-    margin-left: 25%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 15pt;
-    border-radius: 10px;
-    
+	width: 100%;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15pt;
+	border-radius: 10px;
 }
 
-.conditionsTable th{
-    padding: 20px;
-    width: 20%;
-    letter-spacing: 1pt;
-    border-bottom: 8px solid;
-    border-right: 5px solid;
-    border-radius: 10px;
+.conditionsTable th {
+	padding: 20px;
+	width: 20%;
+	letter-spacing: 1pt;
+	border-bottom: 8px solid;
+	border-right: 5px solid;
+	border-radius: 10px;
 }
 
-.conditionsTable td{
-    padding: 20px;
-    border-right: 5px solid;
-    border-radius: 10px;
+.conditionsTable td {
+	padding: 20px;
+	border-right: 5px solid;
+	border-radius: 10px;
 }
 
 .extrasTable {
-    width: 75%;
-    color: #fff;
-    padding-left: 30px;
-    margin-left: 25%;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    font-size: 15pt;
-    background-color: #4ca176;
-    border-radius: 10px;
-    
+	width: 75%;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 15pt;
+	background-color: #4ca176;
+	border-radius: 10px;
 }
 
-.extrasTable th{
-    padding: 20px;
-    width: 20%;
-    letter-spacing: 1pt;
-    border-bottom: 8px solid;
-    border-right: 5px solid;
+.extrasTable th {
+	padding: 20px;
+	width: 20%;
+	letter-spacing: 1pt;
+	border-bottom: 8px solid;
+	border-right: 5px solid;
 }
 
-.extrasTable td{
-    padding: 20px;
-    border-right: 5px solid;
+.extrasTable td {
+	padding: 20px;
+	border-right: 5px solid;
 }
 
-.aboutMe{
-    font-family: 'Fredoka One', cursive;
-    background-color: #431e66; 
-    color: #fff;
+.aboutMe {
+	font-family: 'Fredoka One', cursive;
+	background-color: #431e66;
+	color: #fff;
 }
 
-.traditionalSketch{
-    font-family: 'Fredoka One', cursive;
-    background-color: #431e66; 
-    color: #fff;
+.traditionalSketch {
+	font-family: 'Fredoka One', cursive;
+	background-color: #431e66;
+	color: #fff;
+	margin: auto;
 }
 
-.traditionalInk{
-    font-family: 'Fredoka One', cursive;
-    background-color: #b22e69; 
-    color: #fff;
+.traditionalInk {
+	font-family: 'Fredoka One', cursive;
+	background-color: #b22e69;
+	color: #fff;
+	margin: auto;
 }
 
-.conditionsOne{
-    font-family: 'Fredoka One', cursive;
-    background-color: #348553; 
-    color: #fff;
+.conditionsOne {
+	font-family: 'Fredoka One', cursive;
+	background-color: #348553;
+	color: #fff;
+	margin: auto;
 }
 
-.conditionsTwo{
-    font-family: 'Fredoka One', cursive;
-    background-color: #7e3485; 
-    color: #fff;
+.conditionsTwo {
+	font-family: 'Fredoka One', cursive;
+	background-color: #7e3485;
+	color: #fff;
+	margin: auto;
 }
 
-.conditionsThree{
-    font-family: 'Fredoka One', cursive;
-    background-color: #348581; 
-    color: #fff;
+.conditionsThree {
+	font-family: 'Fredoka One', cursive;
+	background-color: #348581;
+	color: #fff;
+	margin: auto;
 }
 
-
-#articleXsAll{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%;
-    background-color: #b22e69;
-    border-radius: 10px;
-    font-family: 'Varela Round', sans-serif;   
+#articleXsAll {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+	background-color: #b22e69;
+	border-radius: 10px;
+	font-family: 'Varela Round', sans-serif;
 }
 
 
 /*mobile*/
+
 @media only screen and (max-width: 600px) {
-    .articleListBox{
-        margin: 0;
-        margin-bottom: 5px;
-        margin-left: calc(-100vw / 2 + 310px / 2);
-        margin-right: calc(-100vw / 2 + 360px / 2);
-    }
-
-    .articleList{
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .articleContent {
-        margin-right: 0;
-        margin-left: 0;
-        margin-top: 100px;
-    }
-
-
-    
+	.articleListBox {
+		margin: 0;
+		margin-bottom: 5px;
+		margin-left: calc(-100vw / 2 + 310px / 2);
+		margin-right: calc(-100vw / 2 + 360px / 2);
+	}
+	.articleList {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.articleContent {
+		margin-right: 0;
+		margin-left: 0;
+		margin-top: 100px;
+	}
 }
