@@ -37,7 +37,7 @@ After the first "big push" with the website in 2019, I went on quite a big hiatu
     
 After this, the big changes to the websites look came about around May of 2021. At the time, I created a brand new logo for sushipop, which kept the airstream font look, but better reflected the art and content I was creating at the time. It had a little sushi ear, sparkles, and hearts. All things that were commonplace in my artstyle. Ill be honest, im still thrilled with how clean the logo turned out.     
      
-![My old logo compared to my new one]({{ site.baseurl }}\Graphics\Article images\Jan9-2022\newlogo2.PNG)   
+![My old logo compared to my new one]({{ site.baseurl }}\Graphics\Article images\Jan9-2022\newlogo.PNG)   
     
 With this new logo, I changed up the look of the website. The first thing to go was the big "widescreen" chunky look. Putting the website on a 1440p monitor made all the content so spread out, and it was a hassle to read the pages. Meanwhile I constantly struggled to keep the footer in place, but everything ended up looking pretty good despite that. Honestly most of the work was done by the time May of 2021 wrapped up.    
 Past that point, however, I went on another hiatus, constantly thinking about how nice it would be to have a nice website to put my things on, especially for my commision work. I worked on a few things here and there, but never made much meaningful progress until a few months ago.  
