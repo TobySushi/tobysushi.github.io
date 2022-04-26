@@ -345,7 +345,7 @@ a:hover {
 
 .contactHeaderSection {
 	margin-top: 75px;
-	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactBanner.png');
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactbanner.png');
 	background-size: 75%;
 	background-attachment: fixed;
 	border-bottom: 10px solid #431e66;
@@ -860,7 +860,7 @@ a:hover {
 	
 	.contactHeaderSection {
 		margin-top: 75px;
-		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactBanner.png');
+		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactbanner.png');
 		background-size: 75%;
 		background-attachment: fixed;
 		border-bottom: 10px solid #431e66;
@@ -1379,7 +1379,7 @@ a:hover {
 		
 		.contactHeaderSection {
 			margin-top: 75px;
-			background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactBanner.png');
+			background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactbanner.png');
 			background-size: 75%;
 			background-attachment: fixed;
 			border-bottom: 10px solid #431e66;
