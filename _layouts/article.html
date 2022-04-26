@@ -1,0 +1,79 @@
+---
+layout: main
+title: article
+---
+
+<div>
+    <div class="row container-fluid bodyContent">
+        
+                <div class="visible-lg" style="margin-top: 50px">
+        
+                    <div class="col-md-3"></div>
+                
+                        <div class="articleContent col-md-6" >
+                
+                        {{ content }}
+                            
+                    </div>
+        
+                </div>
+        
+                <div class="visible-md visible-sm" style="margin-top: 10%">
+                        
+                    <div class="col-md-1"></div>
+                
+                        <div class="articleContent col-md-10" >
+                
+                        {{ content }}
+                            
+                    </div>
+                        
+                </div>
+        
+                <div class="visible-xs" style="margin-top: 20%">
+                        
+                    <div class="col-md-2"></div>
+                
+                        <div class="articleContent col-md-8" >
+                
+                        {{ content }}
+                            
+                    </div>
+                        
+                </div>
+        
+            </div>
+    </div>
+    
+   
+    <div class="row container-fluid bodyContent" style="margin-top: 20px">
+        <div class="col-md-2"></div>
+
+        <ul class="col-md-8" style="background-color: #303030; padding: 10px 40px 10px 40px; border-radius: 10px;">
+
+            <div class="titleBar">
+                <h2 align="center" class="headerStyle" style="color: #fff">Want to Read More?</h2>
+            </div>
+
+            {% for post in site.posts limit: 2%}
+                <li class = "articleListBox row">
+                    <div class="col-xs-2 hidden-md">
+                        <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                    </div>
+
+                    <div class="col-xs-8 visible-xs">
+                        <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                        <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <p class="articleListParagraph">{{ post.description }}</p>
+                    </div>
+                    <div class="col-xs-7 hidden-xs">
+                            <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                            <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                            <p class="articleListParagraph">{{ post.description }}</p>
+                    </div>
+
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

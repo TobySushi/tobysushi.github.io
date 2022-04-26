@@ -1,0 +1,1974 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Rubik|Varela+Round&display=swap');
+
+@media (min-width: 1200px) {
+
+/* #region Header Style */
+
+.headerContent {
+    margin-top: 125px;
+}
+
+#constructionGif {
+	margin-top: 10%;
+	width: 50%;
+}
+
+.headerBar {
+	background-color: #431e66;
+	border: 5px solid #ffa5d5;
+	border-radius: 10px;
+}
+
+.headerButton {
+	margin: 3% -50px -70px 15px;
+	padding: 0px 10px 5px 15px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 22pt;
+	color: #fff;
+}
+
+.buttonTextShadow {
+	font-size: 30pt;
+}
+
+#headerLogo {
+	width: 400%;
+	margin-top: -75%;
+	margin-left: -75px;
+	position: absolute;
+}
+
+.mobile-navbar {
+	background-color: #b22e69;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bold;
+}
+
+/* #endregion */
+
+
+/* #region Body Content */
+
+body {
+	background-image: url("Graphics/bgBlack.png");
+	background-attachment: fixed;
+}
+
+.bodyContent {
+	padding: 0;
+}
+
+/* #endregion */
+
+
+/* #region article content */
+.sideImage{
+	width: 100%;
+}
+
+.articleContent {
+	background-color: #303030;
+	color: #fff;
+	border-radius: 10px;
+	border-left: 5px solid #b22e69;
+	padding: 10px 30px 100px 40px;
+}
+
+.articleContent>h1 {
+	font-family: 'Fredoka One', cursive;
+}
+
+.articleContent>h2 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1vw;
+	margin-top: 10px;
+}
+
+.articleContent>p {
+	margin-top: 30px;
+	margin-bottom: 2%;
+	margin-right: 5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.8vw;
+	line-height: 2vw;
+}
+
+.articleContent>ol {
+	margin-top: 0.5vw;
+	margin-bottom: 2vw;
+}
+
+.articleContent>ol>li {
+	margin-left: 2%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.75vw;
+}
+
+.articleContent>ul {
+	margin-top: 1vw;
+	margin-bottom: 2vw;
+}
+
+.articleContent>ul>li {
+	margin-left: 2%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.75vw;
+}
+
+.articleContent>p>img {
+	border-left: 5px solid #b22e69;
+	border-radius: 10px;
+	max-width: 100%;
+	background-color: #1f1f1f;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	display: block;
+}
+
+.imageSubtext {
+	align: center;
+}
+
+
+/* #endregion */
+
+.footerContent {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	height: 70px;
+	background-color: #431e66;
+	z-index: 1;
+	color: #fff;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 10pt;
+	padding-top: 25px;
+}
+
+.articleImage {
+	margin-top: 15px;
+	width: 75%;
+}
+
+.sidebar {
+	align-items: stretch;
+	background-color: #1c0a2e;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	border-left: 5px solid #b22e69;
+	position: relative;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-top: -25px;
+	width: 250px;
+	height: 100%;
+}
+
+.sidebarContainer {
+	margin: 0, 0, 0, 0;
+	height: 1000px;
+	background-color: #1c0a2e;
+	border-left: 5px solid #b22e69;
+	width: 250px;
+	float: right;
+}
+
+#articleSideContent {
+	float: right;
+}
+
+.sidebarArticles>h3 {
+	font-family: 'Fredoka One', cursive;
+	color: #ffa5d5;
+	margin-top: 90px;
+}
+
+#sidebarImage {
+	width: 100%;
+	position: absolute;
+}
+
+.sidebarArticleImage {
+	width: 90%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+.sidebarArticleUrl {
+	padding-bottom: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 15pt;
+	color: #fff;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:hover {
+	color: #8cff9b;
+}
+
+.sidebarArticles {
+	margin-top: 80px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.articleBox {
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	background-color: #b22e69;
+	border-radius: 10px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.articleBoxAll {
+	margin-left: 5%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 90%;
+	background-color: #b22e69;
+	border-radius: 10px;
+}
+
+.articleListImage {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.articleListBox {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background-color: #3f1f3c;
+	border-right: 5px solid #b22e69;
+}
+
+.articleListUrl {
+	padding-bottom: 10px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 15pt;
+	color: #fff;
+}
+
+.articleListInfo {
+	padding-bottom: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12pt;
+	color: #fff;
+}
+
+.articleListParagraph {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12pt;
+	color: #fff;
+}
+
+.articleList {
+	margin-top: 110px;
+	padding-bottom: 75px;
+	margin-bottom: 100px;
+	background-color: #303030;
+	color: #fff;
+	border-radius: 10px;
+	border-left: 5px solid #b22e69;
+	margin-left: 20px;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-right: 20px;
+}
+
+.sortLinks {
+	padding-top: 10px;
+	width: 100%;
+}
+
+.articleList>h1 {
+	font-family: 'Fredoka One', cursive;
+	color: #ffa5d5;
+	padding-left: 30px;
+}
+
+.articleList>ul {
+	list-style-type: none;
+}
+
+.articleList>li {
+	list-style-type: none;
+}
+
+.fullWidth {
+	/* margin-left: calc(-100vw / 2 + 500px / 2);
+    margin-right: calc(-100vw / 2 + 500px / 2);*/
+	margin: 0 auto;
+}
+
+.mainHeaderSection {
+	margin-top: 75px;
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/mainBanner.png');
+	background-size: 100%;
+	background-attachment: fixed;
+	border-bottom: 10px solid #431e66;
+	left: 0;
+	right: 0;
+	padding: 0;
+	height: 350px;
+}
+
+.commisionHeaderSection {
+	margin-top: 75px;
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/commisionbanner.png');
+	background-size: 75%;
+	background-attachment: fixed;
+	border-bottom: 10px solid #431e66;
+	left: 0;
+	right: 0;
+	padding: 0;
+	height: 350px;
+	background-position: bottom;
+}
+
+.contactHeaderSection {
+	margin-top: 75px;
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactBanner.png');
+	background-size: 75%;
+	background-attachment: fixed;
+	border-bottom: 10px solid #431e66;
+	left: 0;
+	right: 0;
+	padding: 0;
+	height: 350px;
+	background-position: bottom;
+}
+
+.mainHeaderTitle {
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+	padding-left: 30px;
+	margin-top: 100px;
+	font-size: 50pt;
+	justify-content: center;
+	text-shadow: 5px 0px black;
+}
+
+.subHeaderTitle {
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+	padding-left: 30px;
+	margin-top: 20px;
+	font-size: 25pt;
+	justify-content: center;
+	text-shadow: 5px 0px black;
+}
+
+.mainSectionTitle {
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 20%;
+	font-size: 30pt;
+}
+
+.mainSection>a {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 25%;
+	margin-top: -30px;
+	margin-bottom: 20px;
+	background-color: #7e3485;
+}
+
+.mainSectionParagraph {
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 20%;
+	font-size: 15pt;
+}
+
+.mainSectionParagraphTwo {
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 20%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 15pt;
+	width: 100%;
+}
+
+.pricingTable {
+	width: 75%;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15pt;
+	background-color: #664ca1;
+	border-radius: 10px;
+}
+
+.pricingTable th {
+	padding: 20px;
+	width: 20%;
+	letter-spacing: 1pt;
+	border-bottom: 8px solid;
+	border-right: 5px solid;
+}
+
+.pricingTable td {
+	padding: 20px;
+	border-right: 5px solid;
+}
+
+.conditionsTable {
+	width: 100%;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15pt;
+	border-radius: 10px;
+}
+
+.conditionsTable th {
+	padding: 20px;
+	width: 20%;
+	letter-spacing: 1pt;
+	border-bottom: 8px solid;
+	border-right: 5px solid;
+	border-radius: 10px;
+}
+
+.conditionsTable td {
+	padding: 20px;
+	border-right: 5px solid;
+	border-radius: 10px;
+}
+
+.extrasTable {
+	width: 75%;
+	color: #fff;
+	padding-left: 30px;
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 15pt;
+	background-color: #4ca176;
+	border-radius: 10px;
+}
+
+.extrasTable th {
+	padding: 20px;
+	width: 20%;
+	letter-spacing: 1pt;
+	border-bottom: 8px solid;
+	border-right: 5px solid;
+}
+
+.extrasTable td {
+	padding: 20px;
+	border-right: 5px solid;
+}
+
+.aboutMe {
+	font-family: 'Fredoka One', cursive;
+	background-color: #431e66;
+	color: #fff;
+}
+
+.traditionalSketch {
+	font-family: 'Fredoka One', cursive;
+	background-color: #431e66;
+	color: #fff;
+	margin: auto;
+}
+
+.traditionalInk {
+	font-family: 'Fredoka One', cursive;
+	background-color: #b22e69;
+	color: #fff;
+	margin: auto;
+}
+
+.conditionsOne {
+	font-family: 'Fredoka One', cursive;
+	background-color: #348553;
+	color: #fff;
+	margin: auto;
+}
+
+.conditionsTwo {
+	font-family: 'Fredoka One', cursive;
+	background-color: #7e3485;
+	color: #fff;
+	margin: auto;
+}
+
+.conditionsThree {
+	font-family: 'Fredoka One', cursive;
+	background-color: #348581;
+	color: #fff;
+	margin: auto;
+}
+
+#articleXsAll {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+	background-color: #b22e69;
+	border-radius: 10px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+	
+	/* #region Header Style */
+	#constructionGif {
+		margin-top: 2%;
+		width: 50%;
+	}
+	
+	.headerContent {
+		margin-top: 125px;
+	}
+	
+	.mobile-navbar {
+		background-color: #b22e69;
+		font-family: 'Varela Round', sans-serif;
+		font-weight: bold;
+	}
+	
+	/* #endregion */
+	
+	
+	/* #region Body Content */
+	
+	body {
+		background-image: url("Graphics/bgBlack.png");
+		background-attachment: fixed;
+	}
+	
+	.bodyContent {
+		padding: 0;
+	}
+	
+	/* #endregion */
+	
+	
+	/* #region article content */
+	.sideImage{
+		width: 100%;
+	}
+	
+	.articleContent {
+		background-color: #303030;
+		color: #fff;
+		border-radius: 10px;
+		border-left: 5px solid #b22e69;
+		padding: 10px 30px 100px 40px;
+	}
+	
+	.articleContent>h1 {
+		font-family: 'Fredoka One', cursive;
+	}
+	
+	.articleContent>h2 {
+		font-family: 'Varela Round', sans-serif;
+		font-size: 18pt;
+		margin-top: 10px;
+	}
+	
+	.articleContent>p {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		margin-right: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 16pt;
+		line-height: 28pt;
+	}
+	
+	.articleContent>ol {
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	
+	.articleContent>ol>li {
+		margin-left: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 16pt;
+	}
+	
+	.articleContent>ul {
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	
+	.articleContent>ul>li {
+		margin-left: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 16pt;
+	}
+	
+	.articleContent>p>img {
+		border-left: 5px solid #b22e69;
+		border-radius: 10px;
+		max-width: 100%;
+		background-color: #1f1f1f;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		display: block;
+	}
+	
+	.imageSubtext {
+		align: center;
+	}
+	
+	
+	/* #endregion */
+	
+	.footerContent {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+		height: 70px;
+		background-color: #431e66;
+		z-index: 1;
+		color: #fff;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 10pt;
+		padding-top: 25px;
+	}
+	
+	.articleImage {
+		margin-top: 15px;
+		width: 75%;
+	}
+	
+	.sidebar {
+		align-items: stretch;
+		background-color: #1c0a2e;
+		margin: 0px;
+		padding: 0px;
+		float: right;
+		border-left: 5px solid #b22e69;
+		position: relative;
+		margin-right: 0;
+		margin-bottom: 0px;
+		margin-top: -25px;
+		width: 250px;
+		height: 100%;
+	}
+	
+	.sidebarContainer {
+		margin: 0, 0, 0, 0;
+		height: 1000px;
+		background-color: #1c0a2e;
+		border-left: 5px solid #b22e69;
+		width: 250px;
+		float: right;
+	}
+	
+	#articleSideContent {
+		float: right;
+	}
+	
+	.sidebarArticles>h3 {
+		font-family: 'Fredoka One', cursive;
+		color: #ffa5d5;
+		margin-top: 90px;
+	}
+	
+	#sidebarImage {
+		width: 100%;
+		position: absolute;
+	}
+	
+	.sidebarArticleImage {
+		width: 90%;
+		margin-bottom: 10px;
+		margin-top: 5px;
+		border-radius: 10px;
+	}
+	
+	.sidebarArticleUrl {
+		padding-bottom: 10px;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 15pt;
+		color: #fff;
+	}
+	
+	a:link {
+		color: #fff;
+	}
+	
+	a:hover {
+		color: #8cff9b;
+	}
+	
+	.sidebarArticles {
+		margin-top: 80px;
+		padding-left: 0px;
+		list-style-type: none;
+	}
+	
+	.articleBox {
+		margin-left: 5%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 90%;
+		background-color: #b22e69;
+		border-radius: 10px;
+		font-family: 'Varela Round', sans-serif;
+	}
+	
+	.articleBoxAll {
+		margin-left: 5%;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		width: 90%;
+		background-color: #b22e69;
+		border-radius: 10px;
+	}
+	
+	.articleListImage {
+		width: 100%;
+		border-radius: 10px;
+	}
+	
+	.articleListBox {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px;
+		margin-right: 20px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border-radius: 10px;
+		background-color: #3f1f3c;
+		border-right: 5px solid #b22e69;
+	}
+	
+	.articleListUrl {
+		padding-bottom: 10px;
+		font-family: 'Fredoka One', cursive;
+		font-size: 15pt;
+		color: #fff;
+	}
+	
+	.articleListInfo {
+		padding-bottom: 10px;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 12pt;
+		color: #fff;
+	}
+	
+	.articleListParagraph {
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 12pt;
+		color: #fff;
+	}
+	
+	.articleList {
+		margin-top: 110px;
+		padding-bottom: 75px;
+		margin-bottom: 100px;
+		background-color: #303030;
+		color: #fff;
+		border-radius: 10px;
+		border-left: 5px solid #b22e69;
+		margin-left: 20px;
+		padding-left: 0px;
+		padding-top: 5px;
+		padding-bottom: 15px;
+		margin-right: 20px;
+	}
+	
+	.sortLinks {
+		padding-top: 10px;
+		width: 100%;
+	}
+	
+	.articleList>h1 {
+		font-family: 'Fredoka One', cursive;
+		color: #ffa5d5;
+		padding-left: 30px;
+	}
+	
+	.articleList>ul {
+		list-style-type: none;
+	}
+	
+	.articleList>li {
+		list-style-type: none;
+	}
+	
+	.fullWidth {
+		/* margin-left: calc(-100vw / 2 + 500px / 2);
+		margin-right: calc(-100vw / 2 + 500px / 2);*/
+		margin: 0 auto;
+	}
+	
+	.mainHeaderSection {
+		margin-top: 75px;
+		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/mainBanner.png');
+		background-size: 100%;
+		background-attachment: fixed;
+		border-bottom: 10px solid #431e66;
+		left: 0;
+		right: 0;
+		padding: 0;
+		height: 350px;
+	}
+	
+	.commisionHeaderSection {
+		margin-top: 5%;
+		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/commisionbanner.png');
+		background-size: 75%;
+		background-attachment: fixed;
+		border-bottom: 10px solid #431e66;
+		left: 0;
+		right: 0;
+		padding: 0;
+		height: 350px;
+		background-position: bottom;
+	}
+	
+	.contactHeaderSection {
+		margin-top: 75px;
+		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactBanner.png');
+		background-size: 75%;
+		background-attachment: fixed;
+		border-bottom: 10px solid #431e66;
+		left: 0;
+		right: 0;
+		padding: 0;
+		height: 350px;
+		background-position: bottom;
+	}
+	
+	.mainHeaderTitle {
+		font-family: 'Fredoka One', cursive;
+		color: #fff;
+		padding-left: 30px;
+		margin-top: 100px;
+		font-size: 50pt;
+		justify-content: center;
+		text-shadow: 5px 0px black;
+	}
+	
+	.subHeaderTitle {
+		font-family: 'Fredoka One', cursive;
+		color: #fff;
+		padding-left: 30px;
+		margin-top: 20px;
+		font-size: 25pt;
+		justify-content: center;
+		text-shadow: 5px 0px black;
+	}
+	
+	.mainSectionTitle {
+		font-family: 'Fredoka One', cursive;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 2%;
+		font-size: 30pt;
+	}
+	
+	.mainSection>a {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-left: 10%;
+		margin-top: -30px;
+		margin-bottom: 20px;
+		background-color: #7e3485;
+	}
+	
+	.mainSectionParagraph {
+		font-family: 'Varela Round', sans-serif;
+		color: #fff;
+		padding: 5%;
+		padding-left: 30px;
+		margin-left: 2%;
+		font-size: 15pt;
+	}
+	
+	.mainSectionParagraphTwo {
+		font-family: 'Varela Round', sans-serif;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 2%;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		font-size: 15pt;
+		width: 100%;
+	}
+	
+	.pricingTable {
+		width: 100%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 10%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 15pt;
+		background-color: #664ca1;
+		border-radius: 10px;
+	}
+	
+	.pricingTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+	}
+	
+	.pricingTable td {
+		padding: 20px;
+		border-right: 5px solid;
+	}
+	
+	.conditionsTable {
+		width: 100%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 10%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 15pt;
+		border-radius: 10px;
+	}
+	
+	.conditionsTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+		border-radius: 10px;
+	}
+	
+	.conditionsTable td {
+		padding: 20px;
+		border-right: 5px solid;
+		border-radius: 10px;
+	}
+	
+	.extrasTable {
+		width: 100%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 10%;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		font-size: 15pt;
+		background-color: #4ca176;
+		border-radius: 10px;
+	}
+	
+	.extrasTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+	}
+	
+	.extrasTable td {
+		padding: 20px;
+		border-right: 5px solid;
+	}
+	
+	.aboutMe {
+		font-family: 'Fredoka One', cursive;
+		background-color: #431e66;
+		color: #fff;
+	}
+	
+	.traditionalSketch {
+		font-family: 'Fredoka One', cursive;
+		background-color: #431e66;
+		color: #fff;
+		margin: auto;
+	}
+	
+	.traditionalInk {
+		font-family: 'Fredoka One', cursive;
+		background-color: #b22e69;
+		color: #fff;
+		margin: auto;
+	}
+	
+	.conditionsOne {
+		font-family: 'Fredoka One', cursive;
+		background-color: #348553;
+		color: #fff;
+		margin: auto;
+	}
+	
+	.conditionsTwo {
+		font-family: 'Fredoka One', cursive;
+		background-color: #7e3485;
+		color: #fff;
+		margin: auto;
+	}
+	
+	.conditionsThree {
+		font-family: 'Fredoka One', cursive;
+		background-color: #348581;
+		color: #fff;
+		margin: auto;
+	}
+	
+	#articleXsAll {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding: 10px;
+		width: 100%;
+		background-color: #b22e69;
+		border-radius: 10px;
+		font-family: 'Varela Round', sans-serif;
+	}
+	
+	}
+
+	@media (max-width: 992px){
+		
+		/* #region Header Style */
+		
+		.headerContent {
+			margin-top: 125px;
+		}
+
+		#constructionGif {
+			margin-top: 5%;
+			width: 100%;
+		}
+		
+		.mobile-navbar {
+			background-color: #b22e69;
+			font-family: 'Varela Round', sans-serif;
+			font-weight: bold;
+		}
+		
+		/* #endregion */
+		
+		
+		/* #region Body Content */
+		
+		body {
+			background-image: url("Graphics/bgBlack.png");
+			background-attachment: fixed;
+		}
+		
+		.bodyContent {
+			padding: 0;
+			margin-top: -100px;
+		}
+		
+		/* #endregion */
+		
+		
+		/* #region article content */
+		.sideImage{
+			width: 100%;
+		}
+		
+		.articleContent {
+			background-color: #303030;
+			color: #fff;
+			border-radius: 10px;
+			border-left: 5px solid #b22e69;
+			padding: 5% 10% 10% 10%;
+		}
+		
+		.articleContent>h1 {
+			font-family: 'Fredoka One', cursive;
+		}
+		
+		.articleContent>h2 {
+			font-family: 'Varela Round', sans-serif;
+			font-size: 18pt;
+			margin-top: 10px;
+		}
+		
+		.articleContent>p {
+			margin-top: 30px;
+			margin-bottom: 40px;
+			margin-right: 5%;
+			font-family: 'Rubik', sans-serif;
+			font-size: 16pt;
+			line-height: 28pt;
+		}
+		
+		.articleContent>ol {
+			margin-top: -40px;
+			margin-bottom: 40px;
+		}
+		
+		.articleContent>ol>li {
+			margin-left: 5%;
+			font-family: 'Rubik', sans-serif;
+			font-size: 16pt;
+		}
+		
+		.articleContent>ul {
+			margin-top: -40px;
+			margin-bottom: 40px;
+		}
+		
+		.articleContent>ul>li {
+			margin-left: 5%;
+			font-family: 'Rubik', sans-serif;
+			font-size: 16pt;
+		}
+		
+		.articleContent>p>img {
+			border-left: 5px solid #b22e69;
+			border-radius: 10px;
+			max-width: 100%;
+			background-color: #1f1f1f;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px;
+			display: block;
+		}
+		
+		.imageSubtext {
+			align: center;
+		}
+		
+		
+		/* #endregion */
+		
+		.footerContent {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			width: 100%;
+			height: 70px;
+			background-color: #431e66;
+			z-index: 1;
+			color: #fff;
+			font-family: 'Varela Round', sans-serif;
+			font-size: 10pt;
+			padding-top: 25px;
+		}
+		
+		.articleImage {
+			margin-top: 15px;
+			width: 75%;
+		}
+		
+		.sidebar {
+			align-items: stretch;
+			background-color: #1c0a2e;
+			margin: 0px;
+			padding: 0px;
+			float: right;
+			border-left: 5px solid #b22e69;
+			position: relative;
+			margin-right: 0;
+			margin-bottom: 0px;
+			margin-top: -25px;
+			width: 250px;
+			height: 100%;
+		}
+		
+		.sidebarContainer {
+			margin: 0, 0, 0, 0;
+			height: 1000px;
+			background-color: #1c0a2e;
+			border-left: 5px solid #b22e69;
+			width: 250px;
+			float: right;
+		}
+		
+		#articleSideContent {
+			float: right;
+		}
+		
+		.sidebarArticles>h3 {
+			font-family: 'Fredoka One', cursive;
+			color: #ffa5d5;
+			margin-top: 90px;
+		}
+		
+		#sidebarImage {
+			width: 100%;
+			position: absolute;
+		}
+		
+		.sidebarArticleImage {
+			width: 90%;
+			margin-bottom: 10px;
+			margin-top: 5px;
+			border-radius: 10px;
+		}
+		
+		.sidebarArticleUrl {
+			padding-bottom: 10px;
+			font-family: 'Varela Round', sans-serif;
+			font-size: 15pt;
+			color: #fff;
+		}
+		
+		a:link {
+			color: #fff;
+		}
+		
+		a:hover {
+			color: #8cff9b;
+		}
+		
+		.sidebarArticles {
+			margin-top: 80px;
+			padding-left: 0px;
+			list-style-type: none;
+		}
+		
+		.articleBox {
+			margin-left: 5%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			width: 90%;
+			background-color: #b22e69;
+			border-radius: 10px;
+			font-family: 'Varela Round', sans-serif;
+		}
+		
+		.articleBoxAll {
+			margin-left: 5%;
+			margin-top: 15px;
+			margin-bottom: 10px;
+			width: 90%;
+			background-color: #b22e69;
+			border-radius: 10px;
+		}
+		
+		.articleListImage {
+			width: 100%;
+			border-radius: 10px;
+		}
+		
+		.articleListBox {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-right: 20px;
+			margin-right: 20px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			border-radius: 10px;
+			background-color: #3f1f3c;
+			border-right: 5px solid #b22e69;
+		}
+		
+		.articleListUrl {
+			padding-bottom: 10px;
+			font-family: 'Fredoka One', cursive;
+			font-size: 15pt;
+			color: #fff;
+		}
+		
+		.articleListInfo {
+			padding-bottom: 10px;
+			font-family: 'Varela Round', sans-serif;
+			font-size: 12pt;
+			color: #fff;
+		}
+		
+		.articleListParagraph {
+			padding-bottom: 10px;
+			padding-top: 10px;
+			font-family: 'Varela Round', sans-serif;
+			font-size: 12pt;
+			color: #fff;
+		}
+		
+		.articleList {
+			margin-top: 110px;
+			padding-bottom: 75px;
+			margin-bottom: 100px;
+			background-color: #303030;
+			color: #fff;
+			border-radius: 10px;
+			border-left: 5px solid #b22e69;
+			margin-left: 20px;
+			padding-left: 0px;
+			padding-top: 5px;
+			padding-bottom: 15px;
+			margin-right: 20px;
+		}
+		
+		.sortLinks {
+			padding-top: 10px;
+			width: 100%;
+		}
+		
+		.articleList>h1 {
+			font-family: 'Fredoka One', cursive;
+			color: #ffa5d5;
+			padding-left: 30px;
+		}
+		
+		.articleList>ul {
+			list-style-type: none;
+		}
+		
+		.articleList>li {
+			list-style-type: none;
+		}
+		
+		.fullWidth {
+			/* margin-left: calc(-100vw / 2 + 500px / 2);
+			margin-right: calc(-100vw / 2 + 500px / 2);*/
+			margin: 0 auto;
+		}
+		
+		.mainHeaderSection {
+			margin-top: 75px;
+			background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/mainBanner.png');
+			background-size: 100%;
+			background-attachment: fixed;
+			border-bottom: 10px solid #431e66;
+			left: 0;
+			right: 0;
+			padding: 0;
+			padding-bottom: 10%;
+			height: 100%;
+		}
+		
+		.commisionHeaderSection {
+			margin-top: 15%;
+			background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/commisionbanner.png');
+			background-size: 100%;
+			background-attachment: fixed;
+			border-bottom: 10px solid #431e66;
+			left: 0;
+			right: 0;
+			padding: 0;
+			height: 350px;
+			background-position: bottom;
+		}
+		
+		.contactHeaderSection {
+			margin-top: 75px;
+			background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/contactBanner.png');
+			background-size: 75%;
+			background-attachment: fixed;
+			border-bottom: 10px solid #431e66;
+			left: 0;
+			right: 0;
+			padding: 0;
+			height: 350px;
+			background-position: bottom;
+		}
+		
+		.mainHeaderTitle {
+			font-family: 'Fredoka One', cursive;
+			color: #fff;
+			padding-left: 30px;
+			margin-top: 100px;
+			font-size: 50pt;
+			justify-content: center;
+			text-shadow: 5px 0px black;
+		}
+		
+		.subHeaderTitle {
+			font-family: 'Fredoka One', cursive;
+			color: #fff;
+			padding-left: 30px;
+			margin-top: 20px;
+			font-size: 25pt;
+			justify-content: center;
+			text-shadow: 5px 0px black;
+		}
+		
+		.mainSectionTitle {
+			font-family: 'Fredoka One', cursive;
+			color: #fff;
+			padding-left: 30px;
+			margin-left: 2%;
+			font-size: 30pt;
+		}
+		
+		.mainSection>a {
+			padding-left: 30px;
+			padding-right: 30px;
+			margin-left: 10%;
+			margin-top: -30px;
+			margin-bottom: 20px;
+			background-color: #7e3485;
+		}
+		
+		.mainSectionParagraph {
+			font-family: 'Varela Round', sans-serif;
+			color: #fff;
+			padding: 5%;
+			padding-left: 30px;
+			margin-left: 2%;
+			font-size: 15pt;
+		}
+		
+		.mainSectionParagraphTwo {
+			font-family: 'Varela Round', sans-serif;
+			color: #fff;
+			padding-left: 30px;
+			margin-left: 2%;
+			margin-top: 30px;
+			margin-bottom: 50px;
+			font-size: 15pt;
+			width: 100%;
+		}
+		
+		.pricingTable {
+			width: 90%;
+			color: #fff;
+			padding-left: 30px;
+			margin-left: 5%;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			font-size: 15pt;
+			background-color: #664ca1;
+			border-radius: 10px;
+		}
+		
+		.pricingTable th {
+			padding: 20px;
+			width: 20%;
+			letter-spacing: 1pt;
+			border-bottom: 8px solid;
+			border-right: 5px solid;
+		}
+		
+		.pricingTable td {
+			padding: 20px;
+			border-right: 5px solid;
+		}
+		
+		.conditionsTable {
+			width: 90%;
+			color: #fff;
+			padding-left: 30px;
+			margin-left: 5%;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			font-size: 15pt;
+			border-radius: 10px;
+		}
+		
+		.conditionsTable th {
+			padding: 20px;
+			width: 20%;
+			letter-spacing: 1pt;
+			border-bottom: 8px solid;
+			border-right: 5px solid;
+			border-radius: 10px;
+		}
+		
+		.conditionsTable td {
+			padding: 20px;
+			border-right: 5px solid;
+			border-radius: 10px;
+		}
+		
+		.extrasTable {
+			width: 90%;
+			color: #fff;
+			padding-left: 30px;
+			margin-left: 5%;
+			margin-top: 30px;
+			margin-bottom: 40px;
+			font-size: 15pt;
+			background-color: #4ca176;
+			border-radius: 10px;
+		}
+		
+		.extrasTable th {
+			padding: 20px;
+			width: 20%;
+			letter-spacing: 1pt;
+			border-bottom: 8px solid;
+			border-right: 5px solid;
+		}
+		
+		.extrasTable td {
+			padding: 20px;
+			border-right: 5px solid;
+		}
+		
+		.aboutMe {
+			font-family: 'Fredoka One', cursive;
+			background-color: #431e66;
+			color: #fff;
+		}
+		
+		.traditionalSketch {
+			font-family: 'Fredoka One', cursive;
+			background-color: #431e66;
+			color: #fff;
+			margin: auto;
+		}
+		
+		.traditionalInk {
+			font-family: 'Fredoka One', cursive;
+			background-color: #b22e69;
+			color: #fff;
+			margin: auto;
+		}
+		
+		.conditionsOne {
+			font-family: 'Fredoka One', cursive;
+			background-color: #348553;
+			color: #fff;
+			margin: auto;
+		}
+		
+		.conditionsTwo {
+			font-family: 'Fredoka One', cursive;
+			background-color: #7e3485;
+			color: #fff;
+			margin: auto;
+		}
+		
+		.conditionsThree {
+			font-family: 'Fredoka One', cursive;
+			background-color: #348581;
+			color: #fff;
+			margin: auto;
+		}
+		
+		#articleXsAll {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			padding: 10px;
+			width: 100%;
+			background-color: #b22e69;
+			border-radius: 10px;
+			font-family: 'Varela Round', sans-serif;
+		}
+		
+		}
+
+@media (max-width: 650px) {
+
+	.commisionHeaderSection {
+		margin-top: 20%;
+		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/commisionbanner.png');
+		background-size: 100%;
+		background-attachment: fixed;
+		border-bottom: 10px solid #431e66;
+		left: 0;
+		right: 0;
+		padding: 0;
+		height: 100%;
+		padding-bottom: 10%;
+		background-position: bottom;
+	}
+
+	#constructionGif {
+		margin-top: 20%;
+		width: 100%;
+	}
+
+	.bodyContent {
+		padding: 0;
+		margin-top: -100px;
+	}
+
+	.mainHeaderTitle {
+		font-family: 'Fredoka One', cursive;
+		color: #fff;
+		padding-left: 2%;
+		margin-top: 10%;
+		font-size: 12vw;
+		justify-content: center;
+		text-shadow: 5px 0px black;
+	}
+	
+	.subHeaderTitle {
+		font-family: 'Fredoka One', cursive;
+		color: #fff;
+		padding-left: 2%;
+		margin-top: 20px;
+		font-size: 8vw;
+		justify-content: center;
+		text-shadow: 5px 0px black;
+	}
+
+	.articleContent {
+		background-color: #303030;
+		color: #fff;
+		border-radius: 10px;
+		border-left: 5px solid #b22e69;
+		padding: 5% 10% 10% 10%;
+	}
+
+
+	.mainSectionTitle {
+		font-family: 'Fredoka One', cursive;
+		color: #fff;
+		padding-left: 2%;
+		margin-left: 2%;
+		font-size: 5vw;
+	}
+	
+	.mainSection>a {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-left: 5%;
+		margin-top: -30px;
+		margin-bottom: 20px;
+		background-color: #7e3485;
+	}
+	
+	.mainSectionParagraph {
+		font-family: 'Varela Round', sans-serif;
+		color: #fff;
+		padding-left: 2%;
+		margin-left: 2%;
+		font-size: 3vw;
+	}
+	
+	.mainSectionParagraphTwo {
+		font-family: 'Varela Round', sans-serif;
+		color: #fff;
+		padding-left: 2%;
+		margin-left: 2%;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		font-size: 3vw;
+		width: 100%;
+	}
+	
+	.pricingTable {
+		width: 90%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 5%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 4vw;
+		background-color: #664ca1;
+		border-radius: 10px;
+	}
+	
+	.pricingTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+	}
+	
+	.pricingTable td {
+		padding: 20px;
+		border-right: 5px solid;
+	}
+	
+	.conditionsTable {
+		width: 90%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 2%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 4vw;
+		border-radius: 10px;
+	}
+	
+	.conditionsTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+		border-radius: 10px;
+	}
+	
+	.conditionsTable td {
+		padding: 20px;
+		border-right: 5px solid;
+		border-radius: 10px;
+	}
+	
+	.extrasTable {
+		width: 90%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 5%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 4vw;
+		background-color: #4ca176;
+		border-radius: 10px;
+	}
+	
+	.extrasTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+	}
+	
+	.extrasTable td {
+		padding: 20px;
+		border-right: 5px solid;
+	}
+	
+	.articleContent>h1 {
+		font-family: 'Fredoka One', cursive;
+	}
+	
+	.articleContent>h2 {
+		font-family: 'Varela Round', sans-serif;
+		font-size: 18pt;
+		margin-top: 10px;
+	}
+	
+	.articleContent>p {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		margin-right: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 3vw;
+		line-height: 28pt;
+	}
+	
+	.articleContent>ol {
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	
+	.articleContent>ol>li {
+		margin-left: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 3vw;
+	}
+	
+	.articleContent>ul {
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	
+	.articleContent>ul>li {
+		margin-left: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 3vw
+	}
+	
+	.articleContent>p>img {
+		border-left: 5px solid #b22e69;
+		border-radius: 10px;
+		max-width: 100%;
+		background-color: #1f1f1f;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		display: block;
+	}	
+}
+
+@media (max-width: 450px) {
+	.articleContent {
+		background-color: #303030;
+		color: #fff;
+		border-radius: 10px;
+		border-left: 5px solid #b22e69;
+		padding: 5% 10% 10% 10%;
+	}
+	
+	.articleContent>h1 {
+		font-family: 'Fredoka One', cursive;
+	}
+
+	.bodyContent {
+	}
+	
+	.articleContent>h2 {
+		font-family: 'Varela Round', sans-serif;
+		font-size: 18pt;
+		margin-top: 10px;
+	}
+	
+	.articleContent>p {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		margin-right: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 4vw;
+		line-height: 28pt;
+	}
+	
+	.articleContent>ol {
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	
+	.articleContent>ol>li {
+		margin-left: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 4vw;
+	}
+	
+	.articleContent>ul {
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	
+	.articleContent>ul>li {
+		margin-left: 5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 4vw;
+	}
+	
+	.articleContent>p>img {
+		border-left: 5px solid #b22e69;
+		border-radius: 10px;
+		max-width: 100%;
+		background-color: #1f1f1f;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		display: block;
+	}	
+
+	.mainSectionTitle {
+		font-family: 'Fredoka One', cursive;
+		color: #fff;
+		padding-left: 2%;
+		margin-left: 2%;
+		font-size: 5vw;
+	}
+	
+	.mainSection>a {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-left: 5%;
+		margin-top: -30px;
+		margin-bottom: 20px;
+		background-color: #7e3485;
+	}
+	
+	.mainSectionParagraph {
+		font-family: 'Varela Round', sans-serif;
+		color: #fff;
+		padding-left: 2%;
+		margin-left: 2%;
+		font-size: 4vw;
+	}
+	
+	.mainSectionParagraphTwo {
+		font-family: 'Varela Round', sans-serif;
+		color: #fff;
+		padding-left: 2%;
+		margin-left: 2%;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		font-size: 4vw;
+		width: 100%;
+	}
+	
+	.pricingTable {
+		width: 90%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 5%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 4vw;
+		background-color: #664ca1;
+		border-radius: 10px;
+	}
+	
+	.pricingTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+	}
+	
+	.pricingTable td {
+		padding: 20px;
+		border-right: 5px solid;
+	}
+	
+	.conditionsTable {
+		width: 90%;
+		color: #fff;
+		padding-left: 10%;
+		margin-left: 2%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 4vw;
+		border-radius: 10px;
+	}
+	
+	.conditionsTable th {
+		padding: 30px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+		border-radius: 10px;
+	}
+	
+	.conditionsTable td {
+		padding: 20px;
+		border-right: 5px solid;
+		border-radius: 10px;
+	}
+	
+	.extrasTable {
+		width: 90%;
+		color: #fff;
+		padding-left: 30px;
+		margin-left: 5%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 4vw;
+		background-color: #4ca176;
+		border-radius: 10px;
+	}
+	
+	.extrasTable th {
+		padding: 20px;
+		width: 20%;
+		letter-spacing: 1pt;
+		border-bottom: 8px solid;
+		border-right: 5px solid;
+	}
+	
+	.extrasTable td {
+		padding: 20px;
+		border-right: 5px solid;
+	}
+}

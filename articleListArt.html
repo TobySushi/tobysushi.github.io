@@ -1,0 +1,37 @@
+---
+layout: main
+title: Art Posts
+---
+
+<div class="container-fluid row bodyContent">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 articleList">
+        <h1>All Posts:</h1>
+        
+        <ul>
+            {% assign sorted-posts = site.posts | where: "categories","art" %}
+            {% for post in sorted-posts %}
+            <li class = "articleListBox row">
+                <div class="col-xs-3 hidden-xs">
+                    <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                </div>
+    
+                <div class="col-xs-12 visible-xs">
+                    <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                    <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <p class="articleListParagraph">{{ post.description }}</p>
+                </div>
+                <div class="col-xs-7 hidden-xs">
+                        <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                        <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <p class="articleListParagraph">{{ post.description }}</p>
+                </div>
+    
+            </li>
+            {% endfor %}
+        </ul>
+
+        <div align="center" class="sortLinks">
+            <span class="articleListInfo">Sort Posts By:</span> | <a class=articleListInfo" href="articleListAll.html">All</a> | <a class=articleListInfo" href="articleListArt.html">Art</a>
+        </div>
+</div>
