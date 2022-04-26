@@ -1,8 +1,4 @@
----
-title: 'Welcome'
-layout: main
----
-
+I"7+<html>
 <div class="row bodyContent container-fluid">
 
     <div class="visible-lg">
@@ -31,10 +27,10 @@ layout: main
                         <div class="col-md-8 mainSection">
                             <h1 class="mainSectionTitle">Want to commision me?!</h1>
                             <p class="mainSectionParagraphTwo">
-                                Want to commision art from me? Check my commisions page!<br>
+                                Want to commision art from me? Check my commisions page!<br />
                             </p>
 
-                            <a href="{{site.baseurl}}/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
+                            <a href="/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
 
                         </div>
                 </div>
@@ -44,25 +40,25 @@ layout: main
                     <div class="col-md-8 mainSection" style="padding: 20px;">
                         <h1 class="mainSectionTitle" style="margin-left: -7%;">Recent Blog Post!</h1>
 
-                        {% for post in site.posts limit: 1%}
-                        <li class = "articleListBox row" align="left" style="background-color: #81214d">
+                        
+                        <li class="articleListBox row" align="left" style="background-color: #81214d">
                             <div class="col-xs-3 hidden-md">
-                                <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                                <img class="articleListImage" src="/Graphics/Thumbnails/jan9-2022-001.png" />
                             </div>
         
                             <div class="col-xs-8 visible-xs">
-                                <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
-                                <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
-                                <p class="articleListParagraph">{{ post.description }}</p>
+                                &lt;a class="articleListUrl" href=/development/2022/04/25/Article.html&gt;The Sushipop website is now open!&lt;/a&gt;<br />
+                                <span class="articleListInfo">Apr 25, 2022</span>
+                                <p class="articleListParagraph">After 3 years of procrastination- a website, finally realized!</p>
                             </div>
                             <div class="col-xs-7 hidden-xs">
-                                    <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
-                                    <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
-                                    <p class="articleListParagraph">{{ post.description }}</p>
+                                    &lt;a class="articleListUrl" href=/development/2022/04/25/Article.html&gt;The Sushipop website is now open!&lt;/a&gt;<br />
+                                    <span class="articleListInfo">Apr 25, 2022</span>
+                                    <p class="articleListParagraph">After 3 years of procrastination- a website, finally realized!</p>
                             </div>
         
                         </li>
-                        {% endfor %}
+                        
                     </div>
                 </div>
         </div>
@@ -97,10 +93,10 @@ layout: main
                         <div class="col-md-8 mainSection">
                             <h1 class="mainSectionTitle">Want to commision me?!</h1>
                             <p class="mainSectionParagraphTwo">
-                                Want to commision art from me? Check my commisions page!<br>
+                                Want to commision art from me? Check my commisions page!<br />
                             </p>
 
-                            <a href="{{site.baseurl}}/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
+                            <a href="/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
 
                         </div>
                 </div>
@@ -110,25 +106,25 @@ layout: main
                     <div class="col-md-8 mainSection" style="padding: 20px;">
                         <h1 class="mainSectionTitle" style="margin-left: -7%;">Recent Blog Post!</h1>
 
-                        {% for post in site.posts limit: 1%}
-                        <li class = "articleListBox row" align="left" style="background-color: #81214d">
+                        
+                        <li class="articleListBox row" align="left" style="background-color: #81214d">
                             <div class="col-xs-3 hidden-md">
-                                <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                                <img class="articleListImage" src="/Graphics/Thumbnails/jan9-2022-001.png" />
                             </div>
         
                             <div class="col-xs-8 visible-xs">
-                                <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
-                                <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
-                                <p class="articleListParagraph">{{ post.description }}</p>
+                                &lt;a class="articleListUrl" href=/development/2022/04/25/Article.html&gt;The Sushipop website is now open!&lt;/a&gt;<br />
+                                <span class="articleListInfo">Apr 25, 2022</span>
+                                <p class="articleListParagraph">After 3 years of procrastination- a website, finally realized!</p>
                             </div>
                             <div class="col-xs-7 hidden-xs">
-                                    <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
-                                    <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
-                                    <p class="articleListParagraph">{{ post.description }}</p>
+                                    &lt;a class="articleListUrl" href=/development/2022/04/25/Article.html&gt;The Sushipop website is now open!&lt;/a&gt;<br />
+                                    <span class="articleListInfo">Apr 25, 2022</span>
+                                    <p class="articleListParagraph">After 3 years of procrastination- a website, finally realized!</p>
                             </div>
         
                         </li>
-                        {% endfor %}
+                        
                     </div>
                 </div>
         </div>
@@ -162,10 +158,10 @@ layout: main
                         <div class="col-md-8 mainSection">
                             <h1 class="mainSectionTitle">Want to commision me?!</h1>
                             <p class="mainSectionParagraphTwo">
-                                Want to commision art from me? Check my commisions page!<br>
+                                Want to commision art from me? Check my commisions page!<br />
                             </p>
 
-                            <a href="{{site.baseurl}}/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
+                            <a href="/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
 
                         </div>
                 </div>
@@ -175,32 +171,30 @@ layout: main
                     <div class="col-md-8 mainSection" style="padding: 20px;">
                         <h1 class="mainSectionTitle" style="margin-left: -7%;">Recent Blog Post!</h1>
 
-                        {% for post in site.posts limit: 1%}
-                        <li class = "articleListBox row" align="left" style="background-color: #81214d">
+                        
+                        <li class="articleListBox row" align="left" style="background-color: #81214d">
                             <div class="col-xs-3 hidden-md">
-                                <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                                <img class="articleListImage" src="/Graphics/Thumbnails/jan9-2022-001.png" />
                             </div>
         
                             <div class="col-xs-8 visible-xs">
-                                <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
-                                <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
-                                <p class="articleListParagraph">{{ post.description }}</p>
+                                &lt;a class="articleListUrl" href=/development/2022/04/25/Article.html&gt;The Sushipop website is now open!&lt;/a&gt;<br />
+                                <span class="articleListInfo">Apr 25, 2022</span>
+                                <p class="articleListParagraph">After 3 years of procrastination- a website, finally realized!</p>
                             </div>
                             <div class="col-xs-7 hidden-xs">
-                                    <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
-                                    <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
-                                    <p class="articleListParagraph">{{ post.description }}</p>
+                                    &lt;a class="articleListUrl" href=/development/2022/04/25/Article.html&gt;The Sushipop website is now open!&lt;/a&gt;<br />
+                                    <span class="articleListInfo">Apr 25, 2022</span>
+                                    <p class="articleListParagraph">After 3 years of procrastination- a website, finally realized!</p>
                             </div>
         
                         </li>
-                        {% endfor %}
+                        
                     </div>
                 </div>
         </div>
         
     </div>
-
-
-
-    
 </div>
+</html>
+:ET
