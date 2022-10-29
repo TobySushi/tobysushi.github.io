@@ -1,20 +1,206 @@
 ---
 title: 'sample article'
-layout: article
-date: '2019-10-29'
-author: sushi
-category: art
+layout: main
 ---
 
-# {{ page.title }}
-## **{{ page.date }} by: {{ page.author }}**
+<div class="row bodyContent container-fluid">
 
-## cool heading
+    <div class="visible-lg">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam eleifend mi. Amet purus gravida quis blandit. Libero id faucibus nisl tincidunt eget nullam non nisi. Urna nec tincidunt praesent semper feugiat nibh. Eget duis at tellus at. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. A diam maecenas sed enim ut sem viverra aliquet. Viverra orci sagittis eu volutpat odio facilisis. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Sed velit dignissim sodales ut eu sem integer vitae. Tempus urna et pharetra pharetra massa massa ultricies mi quis.  
+        <div class="col-md-2"></div>
+            
+            <div class="col-md-8">
+                <div class="parallaxBgA fullWidth row mainHeaderSection" style="border: 5px solid #431e66; border-radius: 15px;">
+                    <h1 class="text-center mainHeaderTitle">Welcome to my Page!</h1>
+                </div>
+
+                    <div class="row mainSection fullWidth aboutMe">
+
+                        <div class="col-md-10 my-auto">
+                            <h1 class="mainSectionTitle">About Me!</h1>
+                            <p class="mainSectionParagraph">
+                                My name is Toby Kind, or Sushipop! Welcome to my home on the web!
+                                I am a digital artist, game developer, programmer, and sometimes musician who loves to make expressive and wild designs.
+                                This site will be a place for me to host my art and projects, and also blog about hobbies, opinions, and helpful tutorials that might give you a hand!
+                            </p>
+                        </div>        
+
+                    </div>
+                
+                <div class="fullWidth row traditionalInked container-fluid" style="background-color: #b22e69; border: 5px solid #431e66; border-radius: 15px;">
+                        <div class="col-md-8 mainSection">
+                            <h1 class="mainSectionTitle">Want to commision me?!</h1>
+                            <p class="mainSectionParagraphTwo">
+                                Want to commision art from me? Check my commisions page!<br>
+                            </p>
+
+                            <a href="{{site.baseurl}}/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
+
+                        </div>
+                </div>
+
+                <div class="fullWidth row aboutMe container-fluid" style="background-color: #431e66; border: 5px solid #431e66; border-radius: 15px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 mainSection" style="padding: 20px;">
+                        <h1 class="mainSectionTitle" style="margin-left: -7%;">Recent Blog Post!</h1>
+
+                        {% for post in site.posts limit: 1%}
+                        <li class = "articleListBox row" align="left" style="background-color: #81214d">
+                            <div class="col-xs-3 hidden-md">
+                                <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                            </div>
+        
+                            <div class="col-xs-8 visible-xs">
+                                <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                                <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                <p class="articleListParagraph">{{ post.description }}</p>
+                            </div>
+                            <div class="col-xs-7 hidden-xs">
+                                    <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                                    <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                    <p class="articleListParagraph">{{ post.description }}</p>
+                            </div>
+        
+                        </li>
+                        {% endfor %}
+                    </div>
+                </div>
+        </div>
+
+    </div>
 
 
-## cool **heading**
+    <div class="visible-md visible-sm">
+            
+        <div class="col-md-1"></div>
+            
+            <div class="col-md-10">
+                <div class="parallaxBgA fullWidth row mainHeaderSection" style="border: 5px solid #431e66; border-radius: 15px;">
+                    <h1 class="text-center mainHeaderTitle">Welcome to my Page!</h1>
+                </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam eleifend mi. Amet purus gravida quis blandit. Libero id faucibus nisl tincidunt eget nullam non nisi. Urna nec tincidunt praesent semper feugiat nibh. Eget duis at tellus at. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. A diam maecenas sed enim ut sem viverra aliquet. Viverra orci sagittis eu volutpat odio facilisis. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Sed velit dignissim sodales ut eu sem integer vitae. Tempus urna et pharetra pharetra massa massa ultricies mi quis.
+                    <div class="row mainSection aboutMe fullWidth">
 
+                        <div class="col-md-10 my-auto">
+                            <h1 class="mainSectionTitle">About Me!</h1>
+                            <p class="mainSectionParagraph">
+                                My name is Toby Kind, or Sushipop! Welcome to my home on the web!
+                                I am a digital artist, game developer, programmer, and sometimes musician who loves to make expressive and wild designs.
+                                This site will be a place for me to host my art and projects, and also blog about hobbies, opinions, and helpful tutorials that might give you a hand!
+                            </p>
+                            
+                        </div>     
+
+                    </div>
+                
+                <div class="fullWidth row traditionalInked container-fluid" style="background-color: #b22e69; border: 5px solid #431e66; border-radius: 15px;">
+                        <div class="col-md-8 mainSection">
+                            <h1 class="mainSectionTitle">Want to commision me?!</h1>
+                            <p class="mainSectionParagraphTwo">
+                                Want to commision art from me? Check my commisions page!<br>
+                            </p>
+
+                            <a href="{{site.baseurl}}/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
+
+                        </div>
+                </div>
+
+                <div class="fullWidth row aboutMe container-fluid" style="background-color: #431e66; border: 5px solid #431e66; border-radius: 15px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 mainSection" style="padding: 20px;">
+                        <h1 class="mainSectionTitle" style="margin-left: -7%;">Recent Blog Post!</h1>
+
+                        {% for post in site.posts limit: 1%}
+                        <li class = "articleListBox row" align="left" style="background-color: #81214d">
+                            <div class="col-xs-3 hidden-md">
+                                <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                            </div>
+        
+                            <div class="col-xs-8 visible-xs">
+                                <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                                <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                <p class="articleListParagraph">{{ post.description }}</p>
+                            </div>
+                            <div class="col-xs-7 hidden-xs">
+                                    <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                                    <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                    <p class="articleListParagraph">{{ post.description }}</p>
+                            </div>
+        
+                        </li>
+                        {% endfor %}
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+
+    <div class="visible-xs">
+            
+        <div class="col-md-2"></div>
+            
+            <div class="col-md-8">
+                <div class="parallaxBgA fullWidth row mainHeaderSection" style="border: 5px solid #431e66; border-radius: 15px;">
+                    <h1 class="text-center mainHeaderTitle">Welcome to my Page!</h1>
+                </div>
+
+                    <div class="row mainSection aboutMe h-100">
+
+                        <div class="col-md-10 my-auto">
+                            <h1 class="mainSectionTitle">About Me!</h1>
+                            <p class="mainSectionParagraph">
+                                My name is Toby Kind, or Sushipop! Welcome to my home on the web!
+                                I am a digital artist, game developer, programmer, and sometimes musician who loves to make expressive and wild designs.
+                                This site will be a place for me to host my art and projects, and also blog about hobbies, opinions, and helpful tutorials that might give you a hand!
+                            </p>
+                            
+                        </div>         
+
+                    </div>
+                
+                <div class="fullWidth row traditionalInked container-fluid" style="background-color: #b22e69; border: 5px solid #431e66; border-radius: 15px;">
+                        <div class="col-md-8 mainSection">
+                            <h1 class="mainSectionTitle">Want to commision me?!</h1>
+                            <p class="mainSectionParagraphTwo">
+                                Want to commision art from me? Check my commisions page!<br>
+                            </p>
+
+                            <a href="{{site.baseurl}}/commisions.html" class="btn btn-primary btn-lg">Commision Info</a>
+
+                        </div>
+                </div>
+
+                <div class="fullWidth row aboutMe container-fluid" style="background-color: #431e66; border: 5px solid #431e66; border-radius: 15px;">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 mainSection" style="padding: 20px;">
+                        <h1 class="mainSectionTitle" style="margin-left: -7%;">Recent Blog Post!</h1>
+
+                        {% for post in site.posts limit: 1%}
+                        <li class = "articleListBox row" align="left" style="background-color: #81214d">
+                            <div class="col-xs-3 hidden-md">
+                                <img class="articleListImage" src="{{ site.baseurl}}/{{post.thumbnail}}">
+                            </div>
+        
+                            <div class="col-xs-8 visible-xs">
+                                <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                                <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                <p class="articleListParagraph">{{ post.description }}</p>
+                            </div>
+                            <div class="col-xs-7 hidden-xs">
+                                    <a class="articleListUrl" href={{post.url}}>{{ post.title }}</a><br/>
+                                    <span class="articleListInfo">{{ post.date | date: "%b %-d, %Y" }}</span>
+                                    <p class="articleListParagraph">{{ post.description }}</p>
+                            </div>
+        
+                        </li>
+                        {% endfor %}
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+
+
+
+    
+</div>

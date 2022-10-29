@@ -4,4 +4,3 @@ include:
   - static
 
 gems:
-  - jekyll-random
