@@ -320,14 +320,13 @@ a:hover {
 
 .mainHeaderSection {
 	margin-top: 75px;
-	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/mainBanner.png');
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/Placeholder/dummy_800x400.png');
 	background-size: 100%;
 	background-attachment: fixed;
 	border-bottom: 10px solid #431e66;
 	left: 0;
 	right: 0;
 	padding: 0;
-	height: 350px;
 }
 
 .commisionHeaderSection {
@@ -359,11 +358,12 @@ a:hover {
 .mainHeaderTitle {
 	font-family: 'Fredoka One', cursive;
 	color: #fff;
-	padding-left: 30px;
-	margin-top: 100px;
-	font-size: 50pt;
-	justify-content: center;
-	text-shadow: 5px 0px black;
+	font-size: 40pt;
+	justify-content: left;
+	text-align:left;
+	text-shadow: 5px 0px #465b69;
+	padding: 25px;
+	padding-left: 10%;
 }
 
 .subHeaderTitle {
@@ -379,8 +379,7 @@ a:hover {
 .mainSectionTitle {
 	font-family: 'Fredoka One', cursive;
 	color: #fff;
-	padding-left: 30px;
-	margin-left: 20%;
+	padding-left: 10%;
 	font-size: 30pt;
 }
 
@@ -396,9 +395,12 @@ a:hover {
 .mainSectionParagraph {
 	font-family: 'Varela Round', sans-serif;
 	color: #fff;
-	padding-left: 30px;
-	margin-left: 20%;
+	margin-left: 12%;
+	padding-left: 3%;
+	margin-right: 25%;
+	margin-Bottom: 5%;
 	font-size: 15pt;
+	border-left: 4px solid #b22e69;
 }
 
 .mainSectionParagraphTwo {
@@ -891,42 +893,7 @@ a:hover {
 		text-shadow: 5px 0px black;
 	}
 	
-	.mainSectionTitle {
-		font-family: 'Fredoka One', cursive;
-		color: #fff;
-		padding-left: 30px;
-		margin-left: 2%;
-		font-size: 30pt;
-	}
 	
-	.mainSection>a {
-		padding-left: 30px;
-		padding-right: 30px;
-		margin-left: 10%;
-		margin-top: -30px;
-		margin-bottom: 20px;
-		background-color: #7e3485;
-	}
-	
-	.mainSectionParagraph {
-		font-family: 'Varela Round', sans-serif;
-		color: #fff;
-		padding: 5%;
-		padding-left: 30px;
-		margin-left: 2%;
-		font-size: 15pt;
-	}
-	
-	.mainSectionParagraphTwo {
-		font-family: 'Varela Round', sans-serif;
-		color: #fff;
-		padding-left: 30px;
-		margin-left: 2%;
-		margin-top: 30px;
-		margin-bottom: 50px;
-		font-size: 15pt;
-		width: 100%;
-	}
 	
 	.pricingTable {
 		width: 100%;
@@ -1410,43 +1377,6 @@ a:hover {
 			text-shadow: 5px 0px black;
 		}
 		
-		.mainSectionTitle {
-			font-family: 'Fredoka One', cursive;
-			color: #fff;
-			padding-left: 30px;
-			margin-left: 2%;
-			font-size: 30pt;
-		}
-		
-		.mainSection>a {
-			padding-left: 30px;
-			padding-right: 30px;
-			margin-left: 10%;
-			margin-top: -30px;
-			margin-bottom: 20px;
-			background-color: #7e3485;
-		}
-		
-		.mainSectionParagraph {
-			font-family: 'Varela Round', sans-serif;
-			color: #fff;
-			padding: 5%;
-			padding-left: 30px;
-			margin-left: 2%;
-			font-size: 15pt;
-		}
-		
-		.mainSectionParagraphTwo {
-			font-family: 'Varela Round', sans-serif;
-			color: #fff;
-			padding-left: 30px;
-			margin-left: 2%;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			font-size: 15pt;
-			width: 100%;
-		}
-		
 		.pricingTable {
 			width: 90%;
 			color: #fff;
@@ -1628,43 +1558,6 @@ a:hover {
 		border-radius: 10px;
 		border-left: 5px solid #b22e69;
 		padding: 5% 10% 10% 10%;
-	}
-
-
-	.mainSectionTitle {
-		font-family: 'Fredoka One', cursive;
-		color: #fff;
-		padding-left: 2%;
-		margin-left: 2%;
-		font-size: 5vw;
-	}
-	
-	.mainSection>a {
-		padding-left: 30px;
-		padding-right: 30px;
-		margin-left: 5%;
-		margin-top: -30px;
-		margin-bottom: 20px;
-		background-color: #7e3485;
-	}
-	
-	.mainSectionParagraph {
-		font-family: 'Varela Round', sans-serif;
-		color: #fff;
-		padding-left: 2%;
-		margin-left: 2%;
-		font-size: 3vw;
-	}
-	
-	.mainSectionParagraphTwo {
-		font-family: 'Varela Round', sans-serif;
-		color: #fff;
-		padding-left: 2%;
-		margin-left: 2%;
-		margin-top: 30px;
-		margin-bottom: 50px;
-		font-size: 3vw;
-		width: 100%;
 	}
 	
 	.pricingTable {
@@ -1859,42 +1752,6 @@ a:hover {
 		padding: 20px;
 		display: block;
 	}	
-
-	.mainSectionTitle {
-		font-family: 'Fredoka One', cursive;
-		color: #fff;
-		padding-left: 2%;
-		margin-left: 2%;
-		font-size: 5vw;
-	}
-	
-	.mainSection>a {
-		padding-left: 30px;
-		padding-right: 30px;
-		margin-left: 5%;
-		margin-top: -30px;
-		margin-bottom: 20px;
-		background-color: #7e3485;
-	}
-	
-	.mainSectionParagraph {
-		font-family: 'Varela Round', sans-serif;
-		color: #fff;
-		padding-left: 2%;
-		margin-left: 2%;
-		font-size: 4vw;
-	}
-	
-	.mainSectionParagraphTwo {
-		font-family: 'Varela Round', sans-serif;
-		color: #fff;
-		padding-left: 2%;
-		margin-left: 2%;
-		margin-top: 30px;
-		margin-bottom: 50px;
-		font-size: 4vw;
-		width: 100%;
-	}
 	
 	.pricingTable {
 		width: 90%;
