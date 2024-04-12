@@ -320,7 +320,7 @@ a:hover {
 
 .mainHeaderSection {
 	margin-top: 75px;
-	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/Placeholder/dummy_800x400.png');
+	background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(63, 31, 60, 0.5)), url('Graphics/Placeholder/dummy_800x400_gray.png');
 	background-size: 100%;
 	background-attachment: fixed;
 	border-bottom: 10px solid #431e66;
@@ -358,12 +358,26 @@ a:hover {
 .mainHeaderTitle {
 	font-family: 'Fredoka One', cursive;
 	color: #fff;
-	font-size: 40pt;
+	font-size: 35pt;
 	justify-content: left;
 	text-align:left;
 	text-shadow: 5px 0px #465b69;
 	padding: 25px;
-	padding-left: 10%;
+	padding-left: 7%;
+}
+
+.mainSectionInlineImage {
+	width: 100%;
+	margin-left: 50%;
+}
+
+.mainSectionContainer {
+	padding-bottom: 5%;
+	height: 250px;
+}
+
+.mainSectionColumn {
+	height: 250px;
 }
 
 .subHeaderTitle {
@@ -395,12 +409,12 @@ a:hover {
 .mainSectionParagraph {
 	font-family: 'Varela Round', sans-serif;
 	color: #fff;
-	margin-left: 12%;
-	padding-left: 3%;
-	margin-right: 25%;
-	margin-Bottom: 5%;
+	margin-left: 10%;
+	padding-left: 2%;
+	margin-right: 5%;
 	font-size: 15pt;
 	border-left: 4px solid #b22e69;
+	text-shadow:2px 0px #303030;
 }
 
 .mainSectionParagraphTwo {
